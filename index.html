@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-GB" data-font="lexend" data-size="normal" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<title>Litmus: AI literacy check</title>
+<meta name="description" content="Litmus helps students judge when to trust AI, and shows why. Eight short tasks with a built-in AI, and feedback on what you actually did.">
+<meta name="theme-color" content="#FFFEFA">
+<link rel="manifest" href="manifest.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Litmus">
+<meta property="og:title" content="Litmus: AI literacy check">
+<meta property="og:description" content="Litmus measures how well a student decides whether to trust an AI's answer.">
+<meta property="og:image" content="icons/icon-512.png">
+<meta property="og:image:alt" content="The Litmus mark: a test strip in three colours">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Litmus: AI literacy check">
+<meta name="twitter:description" content="Litmus measures how well a student decides whether to trust an AI's answer.">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Litmus">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="demo.css">
+<link rel="stylesheet" href="profile.css">
+<link rel="stylesheet" href="quick.css">
+<link rel="stylesheet" href="readaloud.css">
+<link rel="stylesheet" href="ui_audit.css">
+<script src="litmus-shim.js"></script>
+<script src="config.js"></script>
+</head>
+<body class="app">
+<a class="skip-link" href="#main">Skip to the main content</a>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#/start" aria-label="Litmus, start page">
+      <svg viewBox="0 0 28 28" aria-hidden="true" focusable="false"><g transform="rotate(18 14 14)"><rect x="9" y="1.5" width="10" height="25" rx="1.6" fill="#FFFEFA"/><rect x="9" y="11" width="10" height="5.2" fill="#C93C56"/><rect x="9" y="16.2" width="10" height="5.2" fill="#6B3FA0"/><path d="M9 21.4h10v3.5a1.6 1.6 0 0 1-1.6 1.6h-6.8A1.6 1.6 0 0 1 9 24.9z" fill="#2E3A97"/><rect x="9" y="1.5" width="10" height="25" rx="1.6" fill="none" stroke="#17172B" stroke-width="1.5"/></g></svg>
+      Litmus <span class="sub">AI literacy check</span>
+    </a>
+    <nav class="topnav app-nav" id="nav" aria-label="Main" hidden>
+      <button class="navbtn" data-go="task" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg><span>Tasks</span></button>
+      <button class="navbtn" data-go="results" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span>Results</span></button>
+      <button class="navbtn" data-go="trail" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="6" cy="5" r="2"/><circle cx="18" cy="12" r="2"/><circle cx="6" cy="19" r="2"/><path d="M8 5h4a4 4 0 0 1 4 4v1M16 14v1a4 4 0 0 1-4 4H8"/></svg><span>Decision Trail</span></button>
+      <button class="navbtn" data-go="next" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Next set</span></button>
+    </nav>
+    <span class="mode-badge" id="mode-badge">Checking connection</span>
+    <div class="topbar-tools">
+      <button class="iconbtn display-btn" id="display-btn" type="button" aria-expanded="false" aria-controls="display-panel" title="Accessibility: font, text size, and colours"><svg class="acc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="7.2" r="1.4" fill="currentColor" stroke="none"/><path d="M7 9.8l5 1.2 5-1.2M12 11v3.6M12 14.6l-2.6 4M12 14.6l2.6 4"/></svg><span class="db-word">Accessibility</span></button>
+    </div>
+    <!-- Reading settings: one panel, opened by the Accessibility button. display.js draws each select
+         below as a row of large buttons; the selects still hold the values. -->
+    <div class="display-panel" id="display-panel">
+      <div class="settings" role="group" aria-label="Reading settings">
+        <label>Font
+          <select id="set-font" aria-label="Font">
+            <option value="lexend">Lexend Deca</option>
+            <option value="system">System</option>
+            <option value="serif">Serif</option>
+          </select>
+        </label>
+        <label>Text size
+          <select id="set-size" aria-label="Text size">
+            <option value="normal">Standard (100%)</option>
+            <option value="large">110%</option>
+            <option value="xlarge">130%</option>
+          </select>
+        </label>
+        <label>Colours
+          <select id="set-theme" aria-label="Colours">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="contrast">High contrast</option>
+            <option value="cvd">Colour-blind safe</option>
+          </select>
+        </label>
+      </div>
+      <!-- cp_12 (F2): the meaning-carrying marks, drawn in the current colours, so a change of mode shows at once. -->
+      <div class="mode-sample" id="mode-sample" aria-hidden="true"><span class="ms-lv"><span class="cells"><i class="c1"></i><i></i><i></i></span>1</span><span class="ms-lv"><span class="cells"><i class="c1"></i><i class="c2"></i><i></i></span>2</span><span class="ms-lv"><span class="cells"><i class="c1"></i><i class="c2"></i><i class="c3"></i></span>3</span><span class="flag over ms-flag">Trusted wrong</span><span class="flag under ms-flag">Doubted right</span><span class="ms-good">Good call</span><span class="ms-careful">Careful</span></div>
+      <div class="display-foot">
+        <button class="iconbtn" id="install-btn" type="button" hidden>Install app</button>
+        <div class="device-clear"><button class="btn small secondary" type="button" id="clear-device">Clear this device</button><p class="small muted" id="clear-device-note">Removes everything Litmus has saved in this browser.</p></div>
+      </div>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+  <noscript><p>Litmus needs JavaScript turned on.</p></noscript>
+</main>
+<footer class="foot no-print" id="foot">
+  Litmus is software, not a person. Worried? Tell a trusted adult or your school's safeguarding lead.
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script src="door.js"></script>
+<script src="display.js"></script>
+<script src="score_parts.js"></script>
+<script src="app.js"></script>
+<script src="profile.js"></script>
+<script src="quick.js"></script>
+<script src="readaloud.js"></script>
+<script src="demo.js"></script>
+</body>
+</html>

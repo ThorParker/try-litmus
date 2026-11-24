@@ -1,0 +1,156 @@
+/* UI audit (19 Nov 2026; team lead: "find anything with this weird ... UI ..., and anything too ... long").
+   Loaded last on both pages, so each rule here wins over the one it corrects without editing it in place.
+   Checked by tools/ui_audit_sweep.py at 390, 768, 1366, 1920, and 2560 px; the fault list is UI_FAULTS.txt in
+   _ui_audit_2026-11-19. Batch A: nothing squeezed, clipped, or broken. */
+
+/* A1. Task screen, a test button once used: "Push back / against / the AI / Asked" ran one word a line at 390 px
+   because the AI mark, the label, and the green tick shared one row. The tick now takes the mark's place, so one
+   icon leads and the label keeps the width. The tint and the "Asked" line still say it went to the AI. */
+.cf-moves-step .cf-move.done .cf-move-k { display: none; }
+.cf-moves-step .cf-move.done .cf-move-i { order: -1; }
+/* On a phone the four test buttons stack, one a row, so each label reads on one line ("Push back against the AI"
+   was cut into "Push back / against the / AI"). Same height in all: four rows of 56 px against two rows of 110. */
+/* From 481 px up they sit two by two: in four columns (720 px and up) each label had about 120 px and broke the
+   same way at 768 and 1366. */
+@media (min-width: 481px) {
+  .cf-moves-step { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cf-moves-step .cf-move.is-out { margin-left: 0; }
+}
+@media (max-width: 480px) {
+  .cf-moves-step { grid-template-columns: minmax(0, 1fr); }
+  .cf-moves-step .cf-move .cf-move-l { flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 0 10px; }
+}
+
+/* A2. Results, "Explain" opened: the reason column was squeezed to about 100 px beside the part's name and points
+   ("Named / every / point."). On a narrow card the reason goes under the name, full width. */
+@media (max-width: 560px) {
+  .sx-bd-row .sx-bd-why { grid-column: 2 / -1; }
+}
+
+/* A3. Teacher: "Add your label" broke over two lines inside its sentence. A short link-button keeps its words
+   together and moves to the next line whole. */
+.label-line .why-btn { white-space: nowrap; }
+
+/* A4. Guided demo bar on a phone: five buttons in a four-column grid left "Exit" alone on a second row. One row of
+   equal buttons, as many as there are. */
+@media (max-width: 720px) {
+  .demo-controls { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); }
+}
+
+/* A5. Teacher grid at 768 px: "2 of 3" ran one word a line in the sets column. A count stays on one line. */
+table.grid td.num-cell { white-space: nowrap; }
+/* and a column heading ("On your own") is never narrower than two short words a line */
+table.grid thead th[scope="col"] { min-width: 6.5em; }
+.present-view table.grid thead th[scope="col"] { min-width: 0; }   /* the class on a projector keeps its own sizing */
+
+/* A6. Guided demo bar at tablet width: the one-step "Start" chapter was narrower than its own name (cut). */
+.demo-ch { min-width: max-content; }
+
+/* ---------- Batch B: empty gaps, controls far from what they act on, small text, small taps ---------- */
+
+/* B1. Labels at least 14 px (they were 12.6 to 13.8 px): the "Scripted AI" badge, the AI's name on each reply, the
+   teacher's flags and table headings, the demo's chapter names, the Accessibility headings, the eyebrows, the
+   captions under "Trust the answer" / "Question the answer", and "Guessing" / "Certain". */
+:root body .mode-badge, :root body .topbar .mode-badge[data-state], :root body .topbar .mode-badge[data-setup], :root body .cf-who, :root body .flag, :root body table.grid th, :root body .demo-ch-name,
+:root body .seg legend, :root body .eyebrow { font-size: max(14px, 0.875rem); }
+#sheet-panel .cf-segbtn .cf-cap, :root body .cf-cap { font-size: max(14px, 0.875rem); }
+#sheet-panel .cf-c5-ends, :root body .cf-c5-ends { font-size: max(14px, 0.875rem); }
+
+/* B2. Reading text at least 16 px: the "Work on this" line under a part, and a topic's opened detail. */
+:root body .sx-bd-rows > .sx-work, :root body .topic-detail p { font-size: max(16px, 1rem); }
+
+/* B3. Taps at least 44 px: the step row (1 Ask, 2 Test it, 3 Answer) was 36 px tall; the offline strip's "More" 32. */
+:root body .cf-stepbtn { min-height: 44px; }
+:root body .os-more { min-height: 44px; margin: -5px 0; }
+
+/* B4. Results, "How your score works" open: 51 px of nothing between its last line and "Next set". */
+:root body #score-card .score-actions { margin-top: 14px; }
+:root body .sx-how { margin-bottom: 0; }
+:root body #score-card .sx-how-more .more-body { padding-bottom: 4px; }
+
+/* B5. "Ask about my feedback": the empty message list kept 20 px, so the chips sat 45 px below the line above. */
+.messages:empty { padding: 0; }
+
+/* B6. "Mic off" (44 px) beside "Ask" (48 px) in the feedback box: one height. */
+#coach-form .mic-btn { min-height: 48px; }
+
+/* B7. Quick check summary at laptop width and up: the card was set as two columns for a "By topic" list, but the
+   run's own summary has no such list, so its right half stayed empty (about 450 px of nothing). Without the list
+   the card is one column, centred, as wide as its words. */
+@media (min-width: 1100px) {
+  body.app .qc-result:not(:has(> .qc-topics)) { display: block; max-width: 640px; }
+}
+
+/* B8. Task screen on a tall window (1920 x 1080, guided demo step 7): the pane was always a full screen tall, so the
+   typing box, the next-step line, and "Answer" sat at its bottom, about 340 px below the test buttons. From 721 px
+   up the pane is as tall as its content: they follow the test buttons directly. When the chat is taller than the
+   window they still stay pinned to its bottom edge (the dock is sticky). Phones keep the chat layout. */
+@media (min-width: 721px) {
+  #cf-root .cf { min-height: 0; }
+}
+
+/* B9. Quick check on a phone: "The AI is / right" and "The AI is / wrong" wrapped to two lines each side by side.
+   Up to 480 px the two buttons stack, one above the other, each label on one line (same words, order, and keys). */
+@media (max-width: 480px) {
+  .qc-calls { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+}
+
+/* B10. Quick check on a laptop or larger: the card was centred in the window's height, leaving about 190 px of
+   nothing above it at 1920 x 1080. It now starts under the header like every other screen. */
+@media (min-width: 1100px) {
+  body.app.qc-on main { min-height: 0; justify-content: flex-start; }
+}
+
+/* B11. Quick check's "Quick taps. Read the answer first?" note: its OK button sat at the far right (517 px away at
+   2560 px). It now sits right after the words. */
+.qc-nudge { justify-content: flex-start; }
+
+/* B12. Task starting screen (before the first task): it was laid over the whole window (fixed, top 0), so it sat on
+   top of the header's Play and Accessibility buttons; at 200% text size they were covered (test_zoom_200). It now
+   covers the task area only, under the header, so Play and Accessibility stay visible and can be pressed at every
+   text size. */
+#cf-root { position: relative; }
+#cf-root > .cf-intro { position: absolute; inset: 0 0 auto 0; min-height: calc(100vh - 61px); min-height: calc(100dvh - 61px); }
+
+/* B13. First page on a phone: the title dropped 52 px (102 to 154) some time after the page drew. The cause is not the
+   offline strip (it is laid over the page) but the header's Play button: it is added hidden and shown a moment later,
+   and on a 390 px phone the header then has no room and puts its buttons on a second row, pushing everything down
+   (the offline test saw it). The button's place is now kept from the start (an empty place until the script
+   adds the button, then the hidden button itself), so the header has its final shape at
+   once and nothing moves when Play, or the offline strip, appears. */
+.topbar-tools > .ra-btn[hidden] { display: inline-flex; visibility: hidden; }
+/* before the script has added the button at all, an empty place of the same size holds the room (student app only) */
+/* (not while a sheet is open: readaloud.js then lifts Play over the sheet and leaves its own holder in the bar) */
+body.app .topbar-tools:not(:has(> .ra-btn)):not(:has(> .ra-holder))::before { content: ""; flex: none; width: 44px; height: 44px; }
+html[data-listen="hide"] body.app .topbar-tools::before { display: none; }
+
+/* B14. Accessibility on a phone (a sheet from the bottom): up to 88% of the screen tall, it reached over the header
+   and covered Play and the Accessibility button itself (at 100% by a few pixels, at 200% fully). It now stops below
+   the header; its content scrolls inside it. */
+@media (max-width: 720px) {
+  .display-panel { max-height: calc(100vh - 124px); max-height: calc(100dvh - 124px); }
+  html[data-size-band="big"] .display-panel { max-height: calc(100vh - 160px); max-height: calc(100dvh - 160px); }
+}
+
+/* ---------- Batch C: 200% text-size leftovers ---------- */
+
+/* C-L1. Decision Trail at 200%: "Question" was cut in its square (eight or four squares a row). Big text: each square
+   is at least 6em wide and the row wraps. */
+html[data-size-band="big"] .dt-strip, html[data-size-band="big"] .grid-2 .dt-strip { grid-template-columns: repeat(auto-fit, minmax(min(100%, 6em), 1fr)); }
+
+/* C-L2. Teacher tiles at 200% on a phone: "standard" broke inside the word. Big text: one tile a row. */
+html[data-size-band="big"] .tiles { grid-template-columns: minmax(0, 1fr); }
+html[data-size-band="big"] .tiles .tile { grid-column: auto; }
+
+/* C-L3. Results at 200%: "See why" (two lines, 63 px) beside "Flag this feedback" (48 px). One line, one height. */
+.line-acts .why-btn.why-toggle { white-space: nowrap; min-height: 48px; }
+
+/* C-L4. Task at 200%: the four test buttons two by two left "Check it / yourself" one word a line. Big text: one a row,
+   as on a phone. */
+html[data-size-band="big"] .cf-moves-step { grid-template-columns: minmax(0, 1fr); }
+
+/* ---------- Batch C: fewer words on first view ---------- */
+/* C8. Quick check summary: the missed cards show, the right calls sit behind one tap, drawn like "Details". */
+.qc-rights { margin: 0 0 12px; }
+.qc-rights > summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; color: var(--ink-soft); }
+.qc-rights > .qc-rows { margin-bottom: 4px; }

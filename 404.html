@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Litmus</title><meta name="robots" content="noindex">
+<script>
+(function () {
+  var site = '/try-litmus/', p = location.pathname, i = p.indexOf(site);
+  var base = i >= 0 ? p.slice(0, i + site.length) : '/';
+  var rest = i >= 0 ? p.slice(i + site.length) : '';
+  var to = /^teacher\/?$/.test(rest) ? base + 'teacher.html' : base;
+  location.replace(to + location.search + location.hash);
+})();
+</script></head><body style="background:#F7F3EA"></body></html>

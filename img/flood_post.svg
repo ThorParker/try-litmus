@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="A flooded street of old college buildings">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8E9BA8"/><stop offset="1" stop-color="#C9CFD4"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6D7A72"/><stop offset="1" stop-color="#4B5852"/></linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#sky)"/>
+  <!-- left terrace -->
+  <rect x="0" y="120" width="250" height="160" fill="#C8B79A"/>
+  <rect x="0" y="105" width="250" height="18" fill="#B3A283"/>
+  <g fill="#5B5246"><rect x="20" y="145" width="26" height="40"/><rect x="66" y="145" width="26" height="40"/><rect x="112" y="145" width="26" height="40"/><rect x="158" y="145" width="26" height="40"/><rect x="204" y="145" width="26" height="40"/>
+  <rect x="20" y="205" width="26" height="40"/><rect x="66" y="205" width="26" height="40"/><rect x="158" y="205" width="26" height="40"/><rect x="204" y="205" width="26" height="40"/></g>
+  <rect x="108" y="215" width="34" height="65" rx="17" fill="#3E372F"/>
+  <!-- chapel on the right -->
+  <rect x="380" y="90" width="260" height="190" fill="#D3C4A6"/>
+  <path d="M380 90 L510 40 L640 90 Z" fill="#BCAB8B"/>
+  <rect x="392" y="70" width="14" height="40" fill="#BCAB8B"/><rect x="614" y="70" width="14" height="40" fill="#BCAB8B"/>
+  <g fill="#6E6A80"><rect x="410" y="120" width="34" height="110" rx="17"/><rect x="470" y="120" width="34" height="110" rx="17"/><rect x="530" y="120" width="34" height="110" rx="17"/><rect x="590" y="120" width="34" height="110" rx="17"/></g>
+  <!-- gatehouse in the middle -->
+  <rect x="268" y="140" width="96" height="140" fill="#BFAE8F"/>
+  <rect x="300" y="200" width="32" height="80" rx="16" fill="#3E372F"/>
+  <!-- street sign with jumbled letters -->
+  <rect x="34" y="250" width="4" height="40" fill="#2B2B2B"/>
+  <rect x="8" y="236" width="122" height="24" rx="3" fill="#F4F4F0" stroke="#2B2B2B" stroke-width="2"/>
+  <text x="69" y="253" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#1A1A1A">KNGS PRAAD</text>
+  <!-- flood water -->
+  <rect x="0" y="270" width="640" height="130" fill="url(#water)"/>
+  <!-- reflections: a tall tower appears that is not in the street above -->
+  <g opacity="0.35" fill="#D3C4A6">
+    <rect x="380" y="270" width="260" height="80"/>
+    <rect x="0" y="270" width="250" height="70"/>
+    <rect x="280" y="270" width="40" height="125"/>
+    <path d="M280 395 L300 400 L320 395 Z"/>
+  </g>
+  <g stroke="#E8ECEA" stroke-opacity="0.55" stroke-width="2">
+    <path d="M30 300 h60 M150 318 h80 M300 306 h50 M420 330 h90 M540 300 h60 M90 360 h70 M470 370 h80"/>
+  </g>
+  <!-- two people with umbrellas -->
+  <g>
+    <rect x="200" y="262" width="12" height="36" fill="#2F3E57"/>
+    <circle cx="206" cy="254" r="7" fill="#C9A27E"/>
+    <path d="M186 248 Q206 226 226 248 Z" fill="#7A2335"/>
+    <rect x="236" y="264" width="12" height="34" fill="#4A4A4A"/>
+    <circle cx="242" cy="256" r="7" fill="#8A6347"/>
+    <path d="M222 250 Q242 228 262 250 Z" fill="#253A6B"/>
+  </g>
+  <!-- post overlay -->
+  <rect x="0" y="0" width="640" height="34" fill="#111111" opacity="0.7"/>
+  <text x="14" y="23" font-family="Arial, sans-serif" font-size="15" fill="#FFFFFF">Cambridge flooded yesterday!!   40K shares</text>
+</svg>

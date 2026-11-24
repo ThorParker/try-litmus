@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB" data-font="lexend" data-size="normal" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Litmus: teacher view</title>
+<meta name="theme-color" content="#FFFEFA">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="demo.css">
+<link rel="stylesheet" href="quick.css">
+<link rel="stylesheet" href="ui_audit.css">
+<script src="litmus-shim.js"></script>
+<script src="config.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the main content</a>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="teacher.html" aria-label="Litmus teacher view">
+      <svg viewBox="0 0 28 28" aria-hidden="true" focusable="false"><g transform="rotate(18 14 14)"><rect x="9" y="1.5" width="10" height="25" rx="1.6" fill="#FFFEFA"/><rect x="9" y="11" width="10" height="5.2" fill="#C93C56"/><rect x="9" y="16.2" width="10" height="5.2" fill="#6B3FA0"/><path d="M9 21.4h10v3.5a1.6 1.6 0 0 1-1.6 1.6h-6.8A1.6 1.6 0 0 1 9 24.9z" fill="#2E3A97"/><rect x="9" y="1.5" width="10" height="25" rx="1.6" fill="none" stroke="#17172B" stroke-width="1.5"/></g></svg>
+      Litmus <span class="sub">Teacher view</span>
+    </a>
+    <div class="topbar-tools">
+      <button class="iconbtn display-btn" id="display-btn" type="button" aria-expanded="false" aria-controls="display-panel" title="Accessibility: font, text size, and colours"><svg class="acc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="7.2" r="1.4" fill="currentColor" stroke="none"/><path d="M7 9.8l5 1.2 5-1.2M12 11v3.6M12 14.6l-2.6 4M12 14.6l2.6 4"/></svg><span class="db-word">Accessibility</span></button>
+      <button class="iconbtn" id="logout" type="button" hidden>Sign out</button>
+    </div>
+    <!-- Reading settings: one panel, opened by the Accessibility button. display.js draws each select
+         below as a row of large buttons; the selects still hold the values. -->
+    <div class="display-panel" id="display-panel">
+      <div class="settings" role="group" aria-label="Reading settings">
+        <label>Text size
+          <select id="set-size" aria-label="Text size"><option value="normal">Standard (100%)</option><option value="large">110%</option><option value="xlarge">130%</option></select>
+        </label>
+        <label>Colours
+          <select id="set-theme" aria-label="Colours"><option value="light">Light</option><option value="dark">Dark</option><option value="contrast">High contrast</option><option value="cvd">Colour-blind safe</option></select><div class="mode-sample" id="mode-sample-t" aria-hidden="true"><span class="ms-lv"><span class="cells"><i class="c1"></i><i></i><i></i></span>1</span><span class="ms-lv"><span class="cells"><i class="c1"></i><i class="c2"></i><i></i></span>2</span><span class="ms-lv"><span class="cells"><i class="c1"></i><i class="c2"></i><i class="c3"></i></span>3</span><span class="flag over ms-flag">Trusted wrong</span><span class="flag under ms-flag">Doubted right</span><span class="ms-good">Good call</span><span class="ms-careful">Careful</span></div>
+        </label>
+      </div>
+    </div>
+  </div>
+</header>
+<main id="main" tabindex="-1"></main>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script src="display.js"></script>
+<script src="score_parts.js"></script>
+<script src="qr.js"></script>
+<script src="teacher.js"></script>
+<script src="demo.js"></script>
+</body>
+</html>

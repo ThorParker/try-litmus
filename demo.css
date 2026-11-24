@@ -1,0 +1,146 @@
+/* Litmus guided demo (?demo=1): caption bar, spotlight, end card. Tokens come from styles.css. */
+
+/* The quiet link on the start screen */
+.demo-link { margin: 14px 0 0; }
+.demo-link a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--ink-soft); font-size: 0.92rem; text-decoration: underline; text-underline-offset: 3px; }
+.demo-link a:hover { color: var(--accent); }
+.demo-link svg { width: 1.059rem; height: 1.059rem; flex: none; }
+
+/* Caption bar, fixed to the bottom of the screen */
+.demo-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 70;
+  background: var(--surface); color: var(--ink);
+  border-top: 1.5px solid var(--ink);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+/* Progress: three chapters (Student, Teacher, Close), each as wide as its share of the steps.
+   The current chapter's name is in ink with a dot before it; its line fills step by step. */
+.demo-progress { max-width: var(--maxw); margin: 0 auto; padding: 10px var(--gutter) 0; display: flex; gap: 6px; }
+.demo-ch { display: block; min-width: 0; }
+.demo-ch-name { display: block; margin-bottom: 4px; font-size: 0.74rem; letter-spacing: 0.09em; text-transform: uppercase; white-space: nowrap; color: var(--ink-soft); }
+.demo-ch.now .demo-ch-name { color: var(--ink); }
+.demo-ch.now .demo-ch-name::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 6px; border-radius: 50%; background: var(--ink); }
+.demo-ch-line { display: block; height: 6px; border-radius: 3px; background: var(--line); border: 1px solid var(--line-strong); overflow: hidden; }
+.demo-ch-line i { display: block; height: 100%; width: 0; background: var(--ink); transition: width 0.4s ease; }
+.demo-inner {
+  max-width: var(--maxw); margin: 0 auto; padding: 10px var(--gutter) 6px;
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 24px; align-items: center;
+}
+.demo-count { margin: 0 0 4px; font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; }
+.demo-title { color: var(--ink); letter-spacing: 0.02em; }
+.demo-chapter { display: none; }
+.demo-cap-toggle { display: none; }
+.demo-caption { margin: 0; font-size: 1.12rem; line-height: 1.45; max-width: 80ch; min-height: 2.9em; }
+.demo-controls { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+.demo-controls .btn { min-width: 84px; }
+.demo-controls .btn:disabled { opacity: 0.4; }
+.demo-keys { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter) 10px; font-size: 0.78rem; color: var(--ink-soft); }
+
+/* Keep the page clear of the bar */
+body.demo-on main { padding-bottom: calc(var(--demo-h, 160px) + 24px); }
+body.demo-on .foot { padding-bottom: calc(var(--demo-h, 160px) + 24px); }
+body.demo-on .toast { bottom: calc(var(--demo-h, 160px) + 16px); }
+/* The chat-first task screen in the demo: the dock and the sheets sit above the caption bar. */
+body.demo-on.cf-on main { max-width: 760px; padding: 0 0 var(--demo-h, 160px); }
+body.demo-on .cf { min-height: calc(100dvh - 61px - var(--demo-h, 160px)); }
+body.demo-on .cf-dock { bottom: var(--demo-h, 160px); }
+body.demo-on .cf-sheet { bottom: var(--demo-h, 160px); }
+body.demo-on .cf-panel { max-height: calc(92dvh - var(--demo-h, 160px)); }
+body.demo-on.cf-on #foot { display: none; }
+
+/* Spotlight on the part of the screen the caption is about: an outline in the one accent colour,
+   and everything else dimmed by a fixed layer with a cut-out around the target (demo.js). The
+   layer sits above the page and its top bar, and below the caption bar and the end card. */
+.demo-spot {
+  outline: 3px solid var(--accent) !important; outline-offset: 4px;
+  border-radius: 8px;
+  scroll-margin: 140px;
+}
+tr.demo-spot-row > * { background: var(--accent-tint) !important; }
+tr.demo-spot-row > th:first-child { box-shadow: inset 4px 0 0 var(--accent); }
+html[data-theme="contrast"] tr.demo-spot-row > * { box-shadow: inset 0 3px 0 var(--accent), inset 0 -3px 0 var(--accent); }
+.demo-scrim { position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 59; pointer-events: none; background: rgba(23, 23, 43, 0.55); opacity: 0; transition: opacity 0.25s ease; }
+.demo-scrim.on { opacity: 1; }
+html[data-theme="dark"] .demo-scrim { background: rgba(0, 0, 0, 0.6); }
+html[data-theme="contrast"] .demo-scrim { background: rgba(0, 0, 0, 0.8); }
+/* The reading settings stay usable during the demo: an open Display panel sits above the dimming. */
+.topbar:has(#display-panel:not([hidden])) { z-index: 75; }
+
+/* End card */
+.demo-end {
+  position: fixed; left: 0; right: 0; top: 0; bottom: var(--demo-h, 160px); z-index: 65;
+  background: var(--paper); display: flex; align-items: center; justify-content: center;
+  padding: 24px var(--gutter); overflow: auto;
+}
+.demo-end-inner { max-width: 640px; text-align: center; }
+.demo-end svg { width: 88px; height: 88px; margin: 0 auto 8px; display: block; }
+.demo-end h2 { font-size: 3rem; letter-spacing: -0.03em; margin: 0 0 6px; }
+.demo-end .lede { font-size: 1.35rem; margin: 0 0 14px; }
+.demo-end p { color: var(--ink-soft); }
+.demo-end .row { justify-content: center; margin-top: 18px; }
+
+/* Phone width: the bar takes the place of the bottom navigation */
+@media (max-width: 720px) {
+  body.demo-on .topnav.app-nav { display: none; }
+  body.demo-on .topbar { position: static; }
+  .demo-hide-phone { display: none; }
+  .demo-inner { grid-template-columns: minmax(0, 1fr); padding-top: 8px; gap: 8px; }
+  /* Phone: the chapter names give way to one word beside the step count, and the caption can be put away. */
+  .demo-ch-name { display: none; }
+  .demo-progress { padding-top: 8px; gap: 4px; }
+  .demo-chapter { display: inline; color: var(--ink); }
+  .demo-chapter::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: var(--ink); vertical-align: 1px; }
+  .demo-title { flex-basis: 100%; order: 3; }
+  .demo-cap-toggle { display: inline-flex; align-items: center; margin: -12px 0 -12px auto; min-height: 44px; padding: 0 2px; font: inherit; font-size: 0.82rem; letter-spacing: 0; text-transform: none; color: var(--accent); background: none; border: 0; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .demo-bar.cap-off .demo-caption, .demo-bar.cap-off .demo-title { display: none; }
+  .demo-caption { font-size: 0.95rem; line-height: 1.4; min-height: 0; }
+  .demo-controls { justify-content: stretch; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+  .demo-controls .btn { min-width: 0; padding: 0 6px; font-size: 0.86rem; }
+  .demo-keys { display: none; }
+  .demo-end h2 { font-size: 2.2rem; }
+  .demo-end .lede { font-size: 1.1rem; }
+}
+@media (min-width: 1600px) {
+  .demo-inner, .demo-keys, .demo-progress { max-width: 1500px; }
+  .demo-caption { font-size: 1.25rem; max-width: 90ch; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .demo-scrim, .demo-ch-line i { transition: none; }
+}
+@media print { .demo-bar, .demo-end { display: none !important; } }
+/* cp_10: the strip is one line of caption beside the buttons; the count row and the key hints sit behind "?". */
+.demo-bar .demo-count { display: none; }
+.demo-bar.more-on .demo-count { display: flex; }
+.demo-bar .demo-keys[hidden] { display: none; }
+.demo-more-btn { min-width: 44px; font-weight: 600; }
+/* cp_10: ?demo=1&clean=1, for a film of the product only: no strip, no hints, no spotlight or dimming, no toast,
+   no caret, nothing moving once the step has settled. */
+html.demo-clean #demo-bar, html.demo-clean .demo-scrim, html.demo-clean .demo-end, html.demo-clean #toast { display: none !important; }
+html.demo-clean { --demo-h: 0px !important; }
+html.demo-clean body.demo-on main { padding-bottom: 24px; }
+html.demo-clean body.demo-on .cf-dock, html.demo-clean body.demo-on .cf-sheet { bottom: 0; }
+html.demo-clean .demo-spot { outline: none !important; box-shadow: none !important; }
+html.demo-clean tr.demo-spot-row > * { background: inherit !important; box-shadow: none !important; }
+html.demo-clean *, html.demo-clean *::before, html.demo-clean *::after { animation: none !important; transition: none !important; caret-color: transparent !important; }
+
+/* Demo smooth (19 Nov 2026, team lead: "make it smooth"). demo.js holds the timing; this is the look of each move.
+   The page arrives hidden and fades in when the first step is ready; it fades out before the other page loads. */
+body.demo-on main { transition: opacity 0.25s ease; }
+html.demo-enter body.demo-on main, html.demo-leave body.demo-on main, html.demo-leave .topbar { opacity: 0; }
+html.demo-leave .topbar { transition: opacity 0.25s ease; }
+/* The dimming's cut-out glides to its next target instead of jumping (one single cut-out, see placeScrim). */
+.demo-scrim.glide { transition: opacity 0.25s ease, clip-path 0.35s cubic-bezier(0.65, 0, 0.35, 1), -webkit-clip-path 0.35s cubic-bezier(0.65, 0, 0.35, 1); }
+/* The outline fades in on its new target. */
+.demo-spot { animation: demo-ring-in 0.3s ease-out; }
+@keyframes demo-ring-in { from { outline-color: transparent; } }
+/* Room kept for a verdict under a Quick check card, so nothing below it jumps when the verdict arrives. */
+body.demo-on #qc-after { min-height: 200px; }
+/* Play reads "Pause" with a pause sign while the demo plays. */
+.demo-play { display: inline-flex; align-items: center; gap: 6px; }
+.demo-play .demo-play-i { width: 0; height: 0; border-style: solid; border-width: 5px 0 5px 8px; border-color: transparent transparent transparent currentColor; }
+.demo-play.is-playing .demo-play-i { width: 8px; height: 10px; border: 0; border-left: 3px solid currentColor; border-right: 3px solid currentColor; }
+@media (prefers-reduced-motion: reduce) {
+  body.demo-on main, html.demo-leave .topbar, .demo-scrim.glide { transition: none; }
+  .demo-spot { animation: none; }
+}

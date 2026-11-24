@@ -1,0 +1,36 @@
+/* "Read this screen aloud" (static/readaloud.js, 19 Nov 2026): one round play/pause button in the top bar, the same
+   place on every reading screen, and a soft highlight on the part being read. No words: the icon and its name. */
+.ra-btn {
+  position: relative; display: inline-flex; align-items: center; justify-content: center; flex: none;
+  width: 44px; height: 44px; padding: 0; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--accent); color: var(--on-accent);
+}
+.ra-btn[hidden] { display: none; }
+.ra-btn:hover { background: var(--accent-hover, var(--accent)); }
+.ra-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.ra-btn .ra-i { width: 22px; height: 22px; }
+.ra-btn .ra-pause { display: none; }
+.ra-btn[data-state="playing"] .ra-play { display: none; }
+.ra-btn[data-state="playing"] .ra-pause { display: block; }
+/* Playing: a ring breathes round the button. Never with reduced motion. */
+.ra-btn[data-state="playing"]::after {
+  content: ""; position: absolute; inset: -4px; border-radius: 50%; border: 2px solid var(--accent);
+  animation: ra-ring 1.6s ease-in-out infinite; pointer-events: none;
+}
+@keyframes ra-ring { 0%, 100% { opacity: 0.25; transform: scale(1); } 50% { opacity: 0.9; transform: scale(1.06); } }
+@media (prefers-reduced-motion: reduce) { .ra-btn[data-state="playing"]::after { animation: none; opacity: 0.9; } }
+html[data-motion="reduce"] .ra-btn[data-state="playing"]::after { animation: none; opacity: 0.9; }
+html[data-theme="contrast"] .ra-btn { background: var(--ink); color: var(--surface); }
+html[data-theme="contrast"] .ra-btn[data-state="playing"]::after { border-color: var(--ink); }
+
+/* The part being read: a soft highlight the eye can follow (a background and a ring, never colour alone). */
+.ra-now { background-color: var(--accent-tint); box-shadow: 0 0 0 4px var(--accent-tint); border-radius: 6px; }
+html[data-theme="contrast"] .ra-now { background-color: transparent; box-shadow: none; outline: 3px solid var(--ink); outline-offset: 3px; }
+
+/* A screen with the new button: its scattered "Listen" buttons give way to it. */
+html.ra-on.ra-screen #main [data-speak], html.ra-on.ra-screen #cf-listen-task { display: none !important; }
+/* No voice on this device that can be named male and English: the device-voice "Listen" buttons are hidden too. */
+html.ra-novoice [data-speak], html.ra-novoice #cf-listen-task, html.ra-novoice #st-try { display: none !important; }
+/* Settings, "Listen buttons: Hide" hides this one too. */
+html[data-listen="hide"] .ra-btn { display: none !important; }
+@media print { .ra-btn { display: none !important; } .ra-now { background: none; box-shadow: none; } }

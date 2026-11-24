@@ -1,0 +1,228 @@
+/* Litmus Quick check (19 Nov 2026): static/quick.js. One card, full attention. Phone first; on a laptop the
+   card sits in the middle with room above. Right and wrong are a word and an icon as well as a colour. */
+
+.qc-wrap { max-width: 560px; margin: 0 auto; }
+.qc-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; margin: 0 0 10px; }
+.qc-progress { margin: 0; color: var(--ink-soft); font-size: 1rem; font-variant-numeric: tabular-nums; letter-spacing: 0.01em; }
+.qc-end { font: inherit; font-size: 1rem; background: none; border: 0; color: var(--ink-soft); min-height: 44px; min-width: 44px; padding: 0 4px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.qc-end:hover { color: var(--ink); }
+
+/* 19 Nov 2026 (F6, the team lead: "a visual separation so you can understand immediately what the different bits are"):
+   the tasks' chat language. (1) the situation is the student's own message: a right-aligned indigo bubble with a "You"
+   tag; (2) the AI's answer is the AI's bubble: left, white, the AI mark, an accent bar; (3) the question and the two
+   buttons; (4) the verdict, a full-width band; (5) Discuss (and, later, "Why?") in a quieter inset below.
+   Each part has its own shape, place, and icon, so it stays distinct in the colour-blind and high-contrast themes. */
+.qc-card { display: grid; gap: 14px; padding: 0; }
+.qc-card:focus { outline: none; }
+.qc-card:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+.qc-you { justify-self: end; max-width: 88%; display: grid; gap: 4px; }
+.qc-you-tag { justify-self: end; font-size: 0.875rem; font-weight: 600; color: var(--ink-soft); }
+.qc-ctx { margin: 0; padding: 12px 16px; background: var(--accent); color: var(--on-accent); border-radius: 16px 16px 4px 16px;
+  font-size: 1.125rem; line-height: 1.5; overflow-wrap: anywhere; }
+.qc-q-line { margin: 18px 0 0; font-size: 1.125rem; font-weight: 600; color: var(--ink); }
+.qc-ai { display: grid; gap: 8px; justify-self: stretch; padding: 14px 16px 16px 18px; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); border-left: 5px solid var(--accent); border-radius: 4px 16px 16px 16px; }
+.qc-ai-tag { display: inline-flex; align-items: center; gap: 6px; justify-self: start; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); }
+.qc-ai-tag svg { width: 1.059rem; height: 1.059rem; }
+.qc-ans { margin: 0; font-size: 1.25rem; line-height: 1.5; color: var(--ink); overflow-wrap: anywhere; }
+.qc-wait .qc-ctx, .qc-wait .qc-ans { background: var(--surface-2); border-radius: 6px; color: transparent; }
+.qc-wait .qc-ans { min-height: 4.5em; }
+
+.qc-calls { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9em), 1fr)); gap: 12px; margin-top: 16px; }
+.qc-call { font: inherit; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 64px; padding: 10px 12px;
+  background: var(--surface); color: var(--ink); border: 2px solid var(--ink); border-radius: var(--radius-control); cursor: pointer; position: relative; }
+.qc-call svg { width: 1.412rem; height: 1.412rem; flex: none; }
+.qc-call:hover:not(:disabled) { background: var(--surface-2); }
+.qc-call:active:not(:disabled) { transform: translateY(1px); }
+.qc-call:disabled { cursor: default; }
+.qc-call.is-chosen { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.qc-call.is-other { opacity: 0.65; }
+.qc-call kbd { display: none; font: inherit; font-size: 0.875rem; line-height: 1; padding: 3px 6px; border: 1px solid currentColor; border-radius: 4px; }
+.qc-call-t { display: grid; gap: 2px; text-align: left; }
+.qc-cap { font-size: 0.875rem; font-weight: 400; line-height: 1.3; }
+@media (hover: hover) and (pointer: fine) { .qc-call kbd { display: inline-block; } }
+/* ui_audit (19 Nov 2026): the key hint sits in the button's corner, so the label keeps the row's width (it was
+   squeezed to "The AI / is / wrong", one word per line, in a narrow window with a mouse). */
+.qc-call kbd { position: absolute; top: 6px; right: 6px; }
+.qc-call-t { min-width: auto; }
+
+.qc-after:empty { display: none; }
+.qc-after { margin-top: 20px; display: grid; gap: 14px; }
+/* (4) the verdict: a full-width band, an icon and a short label, the area tag and the clue (F8), then its one line. */
+.qc-verdict { display: flex; align-items: flex-start; gap: 12px; margin: 0; padding: 16px 18px; border-radius: var(--radius-control);
+  border: 2px solid var(--line); font-size: 1.0625rem; line-height: 1.5; color: var(--ink); }
+.qc-verdict svg { width: 1.765rem; height: 1.765rem; flex: none; margin-top: -2px; }
+.qc-verdict > div { min-width: 0; }
+.qc-word { display: block; font-size: 1.125rem; font-weight: 700; margin-bottom: 4px; }
+.qc-tagline { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; margin: 0 0 6px; }
+.qc-area-tag { font-size: 0.875rem; font-weight: 600; padding: 2px 8px; border: 1px solid currentColor; border-radius: 999px; }
+.qc-tell { font-size: 1rem; font-weight: 600; }
+.qc-clue-line { margin: 0 0 6px; font-weight: 600; }
+.qc-verdict.is-right .qc-word { color: var(--good); }
+.qc-verdict.is-miss .qc-word { color: var(--warn); }
+.qc-why { margin: 0; }
+.qc-verdict.is-right { background: var(--good-tint); border-color: var(--good); }
+.qc-verdict.is-right svg { color: var(--good); }
+.qc-verdict.is-miss { background: var(--warn-tint); border-color: var(--warn); }
+.qc-verdict.is-miss svg { color: var(--warn); }
+.qc-next-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px; }
+.qc-next { min-height: 56px; gap: 10px; font-size: 1.08rem; }
+.qc-discuss { font: inherit; justify-self: end; min-width: 88px; background: none; border: 0; color: var(--ink-soft); min-height: 44px; padding: 0 12px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.qc-discuss:hover, .qc-discuss[aria-expanded="true"] { color: var(--ink); }
+.qc-disc { margin-top: 0; font-size: 1rem; line-height: 1.55; }
+/* (5) the secondary parts: a quiet inset, never a band. */
+.qc-inset { padding: 14px 16px; background: var(--paper); border: 1px dashed var(--line-strong); border-radius: var(--radius-control); font-size: 1rem; line-height: 1.55; }
+/* 19 Nov 2026: "Why?" and the AI's comment on a typed reason, in the same inset; the once-a-run nudge. */
+.qc-whyq-h { margin: 0 0 10px; font-size: 1.125rem; }
+.qc-whyq-h:focus { outline: none; }
+.qc-clue { font-size: 1rem; }
+.qc-type-btn { font: inherit; background: none; border: 0; color: var(--ink-soft); min-height: 44px; padding: 0 4px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.qc-type-btn:hover { color: var(--ink); }
+.qc-type { margin-top: 8px; }
+.qc-type .error:empty { display: none; }
+.qc-mic { min-width: 44px; min-height: 44px; }
+.qc-mic svg { width: 20px; height: 20px; }
+.qc-ai-note { display: grid; gap: 6px; }
+.qc-why-reply { margin: 0; }
+.qc-nudge { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 14px; border: 1px solid var(--line-strong); border-radius: var(--radius-control); background: var(--surface); }
+.qc-nudge p { margin: 0; }
+.qc-disc p { margin: 0 0 10px; }
+.qc-disc p:last-child { margin-bottom: 0; }
+.qc-check { display: flex; gap: 10px; align-items: flex-start; }
+.qc-check svg { width: 1.176rem; height: 1.176rem; flex: none; margin-top: 2px; }
+.qc-ask label { display: block; margin: 4px 0 6px; }
+.qc-ask-row { display: flex; flex-wrap: wrap; gap: 8px; }
+/* ui_audit: the box keeps room for its words ("Or type one qu" was cut at 390 px); the buttons wrap under it. */
+.qc-ask-row input { flex: 1 1 12em; min-width: 0;min-height: 44px; font: inherit; padding: 0 12px; border: 1.5px solid var(--line-strong); border-radius: var(--radius-control); background: var(--surface); color: var(--ink); }
+.qc-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 10px; }
+.qc-chip { min-height: 44px; }
+.qc-asked { margin: 0 0 6px; color: var(--ink-soft); font-style: italic; }
+.qc-reply-t { margin: 0; }
+.qc-disc .error:empty { display: none; }
+
+/* A right call: a small tick drawn in, never with reduced motion. */
+.qc-verdict.is-right svg path { stroke-dasharray: 24; stroke-dashoffset: 0; animation: qc-tick 360ms ease-out both; }
+@keyframes qc-tick { from { stroke-dashoffset: 24; } to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { .qc-verdict.is-right svg path { animation: none; } }
+html[data-motion="reduce"] .qc-verdict.is-right svg path { animation: none; }
+
+/* A card arriving: a short rise, never with reduced motion. */
+.qc-in .qc-card, .qc-in .qc-calls { animation: qc-rise 160ms ease-out both; }
+@keyframes qc-rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .qc-in .qc-card, .qc-in .qc-calls { animation: none; } .qc-call:active:not(:disabled) { transform: none; } }
+html[data-motion="reduce"] .qc-in .qc-card, html[data-motion="reduce"] .qc-in .qc-calls { animation: none; }
+
+/* While the cards are on screen a phone shows only the card: the tab bar comes back on the result. */
+@media (max-width: 720px) {
+  body.qc-on.qc-play:not(.demo-on) .topnav.app-nav { display: none; }
+  body.qc-on.qc-play main { padding-bottom: 32px; }
+}
+@media (min-width: 900px) {
+  .qc-wrap { margin-top: clamp(8px, 4vh, 48px); max-width: 760px; }
+  .qc-ctx { font-size: 1.375rem; }
+  .qc-ai { padding: 20px 24px 24px 26px; }
+  .qc-ans { font-size: 1.8125rem; line-height: 1.45; }
+  .qc-result { margin-top: 4vh; }
+}
+
+/* The result: three plain lines, one meaning, one button. */
+.qc-result { max-width: 560px; margin: 0 auto; }
+.qc-result h1 { margin: 0 0 14px; font-size: 1.55rem; line-height: 1.2; }
+.qc-result h1:focus { outline: none; }
+.qc-big { display: block; font-size: 3.4rem; line-height: 1; letter-spacing: -0.03em; margin-bottom: 4px; font-variant-numeric: tabular-nums; }
+.qc-slips { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 8px; }
+.qc-slips li { display: flex; align-items: center; gap: 10px; font-size: 1.06rem; }
+.qc-slips svg { width: 1.294rem; height: 1.294rem; flex: none; color: var(--warn); }
+.qc-slips li.is-none svg { color: var(--good); }
+.qc-mean { font-size: 1.1rem; margin: 0 0 18px; padding-top: 14px; border-top: 1px solid var(--line); }
+.qc-handon { margin: 0 0 10px; color: var(--ink-soft); }
+.qc-go-tasks { gap: 10px; min-height: 56px; }
+.qc-again { font: inherit; display: block; margin: 6px auto 0; background: none; border: 0; color: var(--ink-soft); min-height: 44px; padding: 0 10px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; text-align: center; }
+.qc-again:hover { color: var(--ink); }
+.qc-topics-h { font-size: 0.875rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); margin: 22px 0 6px; font-weight: 400; }
+.qc-topics { list-style: none; margin: 0; padding: 0; }
+.qc-topics li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; padding: 7px 0; border-top: 1px solid var(--line); font-size: 1rem; }
+.qc-topics li b { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.qc-more { margin-top: 12px; border-top: 1px solid var(--line); }
+.qc-sub { font-size: 1.02rem; margin: 10px 0 8px; }
+.qc-list { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 10px; }
+.qc-list li { display: flex; gap: 10px; align-items: flex-start; font-size: 1rem; line-height: 1.5; }
+.qc-list li svg { width: 1.176rem; height: 1.176rem; flex: none; margin-top: 2px; }
+.qc-list li.is-right svg { color: var(--good); }
+.qc-list li.is-miss svg { color: var(--warn); }
+.qc-l-ctx { display: block; color: var(--ink-soft); }
+.qc-l-why { display: block; }
+.qc-l-you { color: var(--ink-soft); }
+.qc-msg h1 { font-size: 1.4rem; }
+
+/* Entry buttons: under Next on the start page, under "Carry on", after the score, on the short set's card. */
+.qc-entry { font: inherit; display: flex; align-items: center; gap: 12px; width: 100%; min-height: 56px; margin: 0; padding: 10px 16px;
+  background: transparent; color: var(--ink); border: 2px solid var(--line-strong); border-radius: var(--radius-control); cursor: pointer; text-align: left; }
+.qc-entry:hover { background: var(--surface-2); border-color: var(--ink); }
+.qc-entry > svg { width: 1.294rem; height: 1.294rem; flex: none; color: var(--accent); }
+.qc-entry > svg:last-child { margin-left: auto; color: var(--ink-soft); width: 1.176rem; height: 1.176rem; }
+.qc-entry-t { display: grid; gap: 1px; }
+.qc-entry-t b { font-weight: 500; font-size: 1.02rem; }
+.qc-entry-t small { font-size: 0.875rem; color: var(--ink-soft); }
+.qc-entry-start { margin-top: 14px; }
+.start-btns .qc-entry { margin: 2px 0; }
+.qc-strip { max-width: 560px; margin: 16px 0 0; }
+.qc-strip-card { margin-top: 16px; }
+.qc-pf-link > svg:first-child { color: var(--accent); }
+
+/* Teacher view: one column and one line. */
+.qc-cell { white-space: normal; min-width: 150px; }
+.qc-cell b { display: block; font-variant-numeric: tabular-nums; }
+.qc-cell .small { display: block; }
+.qc-line { margin: 8px 0 0; }
+
+html[data-theme="contrast"] .qc-call.is-chosen { background: var(--accent); color: #000; }
+html[data-theme="contrast"] .qc-verdict { background: #000; }
+
+.qc-weak { margin: 0 0 10px; font-size: 1rem; color: var(--ink-soft); }
+/* 19 Nov 2026: the summary: a warm opener where earned, the count, the clue count, keep / work on, then the ten rows. */
+.qc-opener { display: flex; align-items: center; gap: 8px; margin: 0 0 6px; font-size: 1.125rem; font-weight: 600; color: var(--ink); }
+.qc-opener svg { width: 24px; height: 24px; color: var(--good); }
+.qc-opener.is-strong svg path { stroke-dasharray: 24; animation: qc-tick 420ms ease-out both; }
+@media (prefers-reduced-motion: reduce) { .qc-opener.is-strong svg path { animation: none; } }
+html[data-motion="reduce"] .qc-opener.is-strong svg path { animation: none; }
+.qc-clue-count { margin: -6px 0 14px; font-size: 1.0625rem; color: var(--ink); }
+.qc-kw { list-style: none; margin: 0 0 14px; padding: 0; display: grid; gap: 8px; }
+.qc-kw li { padding: 10px 14px; border-radius: var(--radius-control); font-size: 1.0625rem; line-height: 1.45; }
+.qc-kw li.is-keep { background: var(--good-tint); border: 1px solid var(--good); }
+.qc-kw li.is-work { background: var(--surface); border: 1px dashed var(--line-strong); }
+.qc-rows { list-style: none; margin: 0 0 16px; padding: 0; border-top: 1px solid var(--line); }
+.qc-row { border-bottom: 1px solid var(--line); }
+.qc-row-b { font: inherit; display: flex; align-items: center; gap: 10px; width: 100%; min-height: 48px; padding: 6px 2px; background: none; border: 0; color: var(--ink); text-align: left; cursor: pointer; font-size: 1rem; }
+.qc-row-b svg { width: 22px; height: 22px; flex: none; }
+.qc-row.is-right .qc-row-b svg { color: var(--good); }
+.qc-row.is-miss .qc-row-b svg { color: var(--warn); }
+.qc-row-more { padding: 0 2px 12px 34px; font-size: 1rem; line-height: 1.5; }
+.qc-row-more p { margin: 0 0 6px; }
+.qc-by { margin: 0 0 16px; font-size: 1rem; }
+.qc-by summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; color: var(--ink-soft); }
+.qc-by-h { margin: 10px 0 4px; font-size: 1rem; }
+.qc-by-l { list-style: none; margin: 0; padding: 0; }
+.qc-by-l li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-top: 1px solid var(--line); }
+/* 19 Nov 2026 (C): one suggested next step, a second choice, and the topics behind More. */
+.qc-next-step { display: grid; gap: 4px; margin: 0 0 8px; }
+.qc-topic-chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.qc-topic { font-size: 1rem; min-height: 44px; }
+.qc-topic small { font-size: 0.875rem; color: var(--ink-soft); }
+.qc-base { margin: 6px 0 4px; font-size: 1rem; }
+
+/* 19 Nov 2026: "Discuss with the AI" is a real button, never a faint link, so no student misses it. */
+.qc-discuss { display: inline-flex; align-items: center; justify-content: center; min-height: 56px; padding: 0 18px;
+  border: 2px solid var(--accent); border-radius: 12px; background: var(--surface); color: var(--accent);
+  font-weight: 600; font-size: 1.08rem; text-decoration: none; justify-self: stretch; }
+.qc-discuss:hover, .qc-discuss[aria-expanded="true"] { background: var(--accent-tint); color: var(--accent-hover); }
+/* 19 Nov 2026: "Discuss with the AI" beside "Next card": a real secondary button, the same height, the AI mark; on a
+   phone the two stack, "Next card" first. */
+.qc-next-row { grid-template-columns: 1fr; }
+.qc-next-row .qc-discuss { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 56px;
+  justify-self: stretch; text-decoration: none; font-size: 1.0625rem; }
+.qc-next-row .qc-discuss svg { width: 20px; height: 20px; flex: none; }
+@media (min-width: 600px) { .qc-next-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); } }
+.qc-clue { text-align: left; white-space: normal; line-height: 1.35; min-height: 44px; }
+/* quick_next4: side by side from 600 px, the two buttons are the same height (stretch, one min-height). */
+@media (min-width: 600px) { .qc-next-row { align-items: stretch; } .qc-next-row .qc-next, .qc-next-row .qc-discuss { min-height: 56px; height: auto; } }

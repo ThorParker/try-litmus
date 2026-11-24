@@ -1,0 +1,20 @@
+{
+  "name": "Litmus: AI literacy check",
+  "short_name": "Litmus",
+  "description": "Helps students judge when to trust AI, and shows why. Eight short tasks with a built-in AI, and feedback on what you actually did.",
+  "id": "./",
+  "start_url": "./#/start",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F7F3EA",
+  "theme_color": "#FFFEFA",
+  "lang": "en-GB",
+  "categories": ["education"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}

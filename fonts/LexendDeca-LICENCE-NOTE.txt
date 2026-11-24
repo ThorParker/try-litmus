@@ -1,0 +1,26 @@
+Lexend Deca Regular (LexendDeca-Regular.ttf)
+
+Source: the "lexend" font package, added 14 Nov 2026.
+SHA-256 567322c5c54cc03640498d963d118405f3bffa297e0b77592250e999a6e7ab99
+
+Copyright and licence, quoted from the font file's own name table:
+  Copyright (name ID 0): Copyright 2019 The Lexend Project Authors (https://github.com/ThomasJockin/lexend)
+  Licence (name ID 13): This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+  Licence URL (name ID 14): http://scripts.sil.org/OFL
+  Designer (name ID 9): Thomas Jockin
+  Version (name ID 5): Version 1.002
+
+The full licence text (OFL.txt) is published by the Lexend project:
+https://github.com/ThomasJockin/lexend/blob/master/OFL.txt
+
+Lexend Deca variable (LexendDeca-Variable.ttf), added 19 Nov 2026 (team lead's finding F6: bold text was the browser's
+synthetic smear of the Regular face, because only Regular was bundled while the styles ask for 500, 600, and 700).
+Source: the Google Fonts repository, github.com/google/fonts, folder ofl/lexenddeca, file "LexendDeca[wght].ttf"
+  https://raw.githubusercontent.com/google/fonts/main/ofl/lexenddeca/LexendDeca%5Bwght%5D.ttf
+  fetched 2026-11-19 19:03:45 with Python urllib.
+SHA-256 d11c12298f431d7e416a1e615d33f2c2b98bda2318a0c186c8c94f08c2d90ce8
+Checked before use: TrueType; an fvar table with a wght axis from 100 to 900 (default 400); name table "Lexend Deca";
+the folder's OFL.txt is the SIL Open Font License, Version 1.1 (saved beside this note as OFL.txt, from
+  https://raw.githubusercontent.com/google/fonts/main/ofl/lexenddeca/OFL.txt).
+The stylesheet declares it with font-weight: 100 900, so every weight on screen is the real one. The Regular file stays
+as the fallback source.

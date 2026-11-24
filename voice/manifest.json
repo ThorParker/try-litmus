@@ -1,0 +1,4153 @@
+{
+ "clips": {
+  "005c50d78c7f1497": {
+   "dur": 2.23,
+   "file": "005c50d78c7f1497.mp3",
+   "voice": "bm_lewis"
+  },
+  "0065fcf0a98b7122": {
+   "dur": 2.03,
+   "file": "0065fcf0a98b7122.mp3",
+   "voice": "bm_lewis"
+  },
+  "015a5864aff72978": {
+   "dur": 3.75,
+   "file": "015a5864aff72978.mp3",
+   "voice": "bm_lewis"
+  },
+  "019c5e745cae666b": {
+   "dur": 1.86,
+   "file": "019c5e745cae666b.mp3",
+   "voice": "bm_lewis"
+  },
+  "01c46e955dd55972": {
+   "dur": 2.03,
+   "file": "01c46e955dd55972.mp3",
+   "voice": "bm_lewis"
+  },
+  "01cb48123d724162": {
+   "dur": 1.89,
+   "file": "01cb48123d724162.mp3",
+   "voice": "bm_lewis"
+  },
+  "02318a836195ef15": {
+   "dur": 2.71,
+   "file": "02318a836195ef15.mp3",
+   "voice": "bm_lewis"
+  },
+  "024afdfb05455a6c": {
+   "dur": 2.01,
+   "file": "024afdfb05455a6c.mp3",
+   "voice": "bm_lewis"
+  },
+  "02d513311debdf39": {
+   "dur": 4.19,
+   "file": "02d513311debdf39.mp3",
+   "voice": "bm_lewis"
+  },
+  "034c163b8f4f47dc": {
+   "dur": 3.86,
+   "file": "034c163b8f4f47dc.mp3",
+   "voice": "bm_lewis"
+  },
+  "03d7b4c60cb65b00": {
+   "dur": 2.31,
+   "file": "03d7b4c60cb65b00.mp3",
+   "voice": "bm_lewis"
+  },
+  "040d5b807b68df1b": {
+   "dur": 3.72,
+   "file": "040d5b807b68df1b.mp3",
+   "voice": "bm_lewis"
+  },
+  "041d4c498740c936": {
+   "dur": 6.97,
+   "file": "041d4c498740c936.mp3",
+   "voice": "bm_lewis"
+  },
+  "042be427b2e2a65d": {
+   "dur": 6.62,
+   "file": "042be427b2e2a65d.mp3",
+   "voice": "bm_lewis"
+  },
+  "043987d8cd050a62": {
+   "dur": 6.5,
+   "file": "043987d8cd050a62.mp3",
+   "voice": "bm_lewis"
+  },
+  "0482ce541aa3cf3a": {
+   "dur": 1.86,
+   "file": "0482ce541aa3cf3a.mp3",
+   "voice": "bm_lewis"
+  },
+  "048ba7d9e51cf10d": {
+   "dur": 2.17,
+   "file": "048ba7d9e51cf10d.mp3",
+   "voice": "bm_lewis"
+  },
+  "0525b1aa2535d64b": {
+   "dur": 1.92,
+   "file": "0525b1aa2535d64b.mp3",
+   "voice": "bm_lewis"
+  },
+  "0540b5012e106453": {
+   "dur": 2.08,
+   "file": "0540b5012e106453.mp3",
+   "voice": "bm_lewis"
+  },
+  "060955179b94f2b9": {
+   "dur": 10.97,
+   "file": "060955179b94f2b9.mp3",
+   "voice": "bm_lewis"
+  },
+  "06a699c1585745ae": {
+   "dur": 1.66,
+   "file": "06a699c1585745ae.mp3",
+   "voice": "bm_lewis"
+  },
+  "0754b476b5673413": {
+   "dur": 3.99,
+   "file": "0754b476b5673413.mp3",
+   "voice": "bm_lewis"
+  },
+  "07b8746e19c95356": {
+   "dur": 0.92,
+   "file": "07b8746e19c95356.mp3",
+   "voice": "bm_lewis"
+  },
+  "07fb6b631c970566": {
+   "dur": 9.34,
+   "file": "07fb6b631c970566.mp3",
+   "voice": "bm_lewis"
+  },
+  "092db5e0b31b749b": {
+   "dur": 1.91,
+   "file": "092db5e0b31b749b.mp3",
+   "voice": "bm_lewis"
+  },
+  "0935732bdc3f5014": {
+   "dur": 1.86,
+   "file": "0935732bdc3f5014.mp3",
+   "voice": "bm_lewis"
+  },
+  "09d22964af45ebc9": {
+   "dur": 2.3,
+   "file": "09d22964af45ebc9.mp3",
+   "voice": "bm_lewis"
+  },
+  "0a5cf65fb88edd25": {
+   "dur": 3.53,
+   "file": "0a5cf65fb88edd25.mp3",
+   "voice": "bm_lewis"
+  },
+  "0a817a1141960788": {
+   "dur": 5.06,
+   "file": "0a817a1141960788.mp3",
+   "voice": "bm_lewis"
+  },
+  "0acf9bf49f860863": {
+   "dur": 2.6,
+   "file": "0acf9bf49f860863.mp3",
+   "voice": "bm_lewis"
+  },
+  "0ae265a504363e97": {
+   "dur": 1.54,
+   "file": "0ae265a504363e97.mp3",
+   "voice": "bm_lewis"
+  },
+  "0b0457f0094ec1ed": {
+   "dur": 2.66,
+   "file": "0b0457f0094ec1ed.mp3",
+   "voice": "bm_lewis"
+  },
+  "0bb07b64f59f9618": {
+   "dur": 1.09,
+   "file": "0bb07b64f59f9618.mp3",
+   "voice": "bm_lewis"
+  },
+  "0bd0b2bf423c0dc7": {
+   "dur": 3.73,
+   "file": "0bd0b2bf423c0dc7.mp3",
+   "voice": "bm_lewis"
+  },
+  "0c2aa7eb6f30273d": {
+   "dur": 1.56,
+   "file": "0c2aa7eb6f30273d.mp3",
+   "voice": "bm_lewis"
+  },
+  "0dbe21f66989ad29": {
+   "dur": 3.53,
+   "file": "0dbe21f66989ad29.mp3",
+   "voice": "bm_lewis"
+  },
+  "0df2d62865c68764": {
+   "dur": 2.03,
+   "file": "0df2d62865c68764.mp3",
+   "voice": "bm_lewis"
+  },
+  "0e341184a9077b46": {
+   "dur": 1.72,
+   "file": "0e341184a9077b46.mp3",
+   "voice": "bm_lewis"
+  },
+  "0f24d10f6a31a989": {
+   "dur": 1.6,
+   "file": "0f24d10f6a31a989.mp3",
+   "voice": "bm_lewis"
+  },
+  "0f83901aa90ebeb6": {
+   "dur": 1.84,
+   "file": "0f83901aa90ebeb6.mp3",
+   "voice": "bm_lewis"
+  },
+  "0f87c7227494bd0b": {
+   "dur": 1.92,
+   "file": "0f87c7227494bd0b.mp3",
+   "voice": "bm_lewis"
+  },
+  "1040c537ace073e7": {
+   "dur": 2.21,
+   "file": "1040c537ace073e7.mp3",
+   "voice": "bm_lewis"
+  },
+  "111b5d171604a573": {
+   "dur": 3.61,
+   "file": "111b5d171604a573.mp3",
+   "voice": "bm_lewis"
+  },
+  "111ff200093118e2": {
+   "dur": 3.88,
+   "file": "111ff200093118e2.mp3",
+   "voice": "bm_lewis"
+  },
+  "11478c4829f8ee62": {
+   "dur": 1.75,
+   "file": "11478c4829f8ee62.mp3",
+   "voice": "bm_lewis"
+  },
+  "114ad7b6ab3e4ff2": {
+   "dur": 4.5,
+   "file": "114ad7b6ab3e4ff2.mp3",
+   "voice": "bm_lewis"
+  },
+  "11fa387e1952a9ef": {
+   "dur": 4.11,
+   "file": "11fa387e1952a9ef.mp3",
+   "voice": "bm_lewis"
+  },
+  "124d6cc6202bee95": {
+   "dur": 2.37,
+   "file": "124d6cc6202bee95.mp3",
+   "voice": "bm_lewis"
+  },
+  "128d173acb8e71c6": {
+   "dur": 4.18,
+   "file": "128d173acb8e71c6.mp3",
+   "voice": "bm_lewis"
+  },
+  "129fdf5890b1f020": {
+   "dur": 7.89,
+   "file": "129fdf5890b1f020.mp3",
+   "voice": "bm_lewis"
+  },
+  "13fb7462c28e5393": {
+   "dur": 4.79,
+   "file": "13fb7462c28e5393.mp3",
+   "voice": "bm_lewis"
+  },
+  "1408ace195038659": {
+   "dur": 3.93,
+   "file": "1408ace195038659.mp3",
+   "voice": "bm_lewis"
+  },
+  "14326da0aeb464f2": {
+   "dur": 2.29,
+   "file": "14326da0aeb464f2.mp3",
+   "voice": "bm_lewis"
+  },
+  "14a27b435a2522a1": {
+   "dur": 6.86,
+   "file": "14a27b435a2522a1.mp3",
+   "voice": "bm_lewis"
+  },
+  "14bdb57df6e4e3ca": {
+   "dur": 7.47,
+   "file": "14bdb57df6e4e3ca.mp3",
+   "voice": "bm_lewis"
+  },
+  "14d0bf6b8229c57d": {
+   "dur": 2.3,
+   "file": "14d0bf6b8229c57d.mp3",
+   "voice": "bm_lewis"
+  },
+  "14d73321c3230754": {
+   "dur": 2.36,
+   "file": "14d73321c3230754.mp3",
+   "voice": "bm_lewis"
+  },
+  "157bc368e20c55b6": {
+   "dur": 2.15,
+   "file": "157bc368e20c55b6.mp3",
+   "voice": "bm_lewis"
+  },
+  "15bdb3bd8fbe7168": {
+   "dur": 3.12,
+   "file": "15bdb3bd8fbe7168.mp3",
+   "voice": "bm_lewis"
+  },
+  "16662ed572f722c5": {
+   "dur": 8.34,
+   "file": "16662ed572f722c5.mp3",
+   "voice": "bm_lewis"
+  },
+  "16cb7ec6e84d0fc6": {
+   "dur": 4.99,
+   "file": "16cb7ec6e84d0fc6.mp3",
+   "voice": "bm_lewis"
+  },
+  "170a207b30716955": {
+   "dur": 2.27,
+   "file": "170a207b30716955.mp3",
+   "voice": "bm_lewis"
+  },
+  "170ea76c7d47211b": {
+   "dur": 5.33,
+   "file": "170ea76c7d47211b.mp3",
+   "voice": "bm_lewis"
+  },
+  "17e15723e7e4d8bc": {
+   "dur": 4.56,
+   "file": "17e15723e7e4d8bc.mp3",
+   "voice": "bm_lewis"
+  },
+  "1862ff001ce2bf22": {
+   "dur": 2.29,
+   "file": "1862ff001ce2bf22.mp3",
+   "voice": "bm_lewis"
+  },
+  "189da01a2bd7813a": {
+   "dur": 2.04,
+   "file": "189da01a2bd7813a.mp3",
+   "voice": "bm_lewis"
+  },
+  "189fa0db998b9e23": {
+   "dur": 3.71,
+   "file": "189fa0db998b9e23.mp3",
+   "voice": "bm_lewis"
+  },
+  "18bb93b20b045898": {
+   "dur": 1.45,
+   "file": "18bb93b20b045898.mp3",
+   "voice": "bm_lewis"
+  },
+  "18c6cfb23982c14d": {
+   "dur": 6.07,
+   "file": "18c6cfb23982c14d.mp3",
+   "voice": "bm_lewis"
+  },
+  "18de78ff479fc139": {
+   "dur": 4.23,
+   "file": "18de78ff479fc139.mp3",
+   "voice": "bm_lewis"
+  },
+  "192f8579c83dd0e5": {
+   "dur": 6.15,
+   "file": "192f8579c83dd0e5.mp3",
+   "voice": "bm_lewis"
+  },
+  "19617f9fc46c834b": {
+   "dur": 2.1,
+   "file": "19617f9fc46c834b.mp3",
+   "voice": "bm_lewis"
+  },
+  "1965b4a4b964b1f7": {
+   "dur": 4.65,
+   "file": "1965b4a4b964b1f7.mp3",
+   "voice": "bm_lewis"
+  },
+  "19f222194243dea5": {
+   "dur": 2.42,
+   "file": "19f222194243dea5.mp3",
+   "voice": "bm_lewis"
+  },
+  "1a13c3b2850ad34f": {
+   "dur": 2.56,
+   "file": "1a13c3b2850ad34f.mp3",
+   "voice": "bm_lewis"
+  },
+  "1a2fa68671725072": {
+   "dur": 3.57,
+   "file": "1a2fa68671725072.mp3",
+   "voice": "bm_lewis"
+  },
+  "1a4dfc808af3a216": {
+   "dur": 3.92,
+   "file": "1a4dfc808af3a216.mp3",
+   "voice": "bm_lewis"
+  },
+  "1acb0f8ea8e5d5fa": {
+   "dur": 9.87,
+   "file": "1acb0f8ea8e5d5fa.mp3",
+   "voice": "bm_lewis"
+  },
+  "1ad24011ce4cd815": {
+   "dur": 5.57,
+   "file": "1ad24011ce4cd815.mp3",
+   "voice": "bm_lewis"
+  },
+  "1b166360319cb04b": {
+   "dur": 2.34,
+   "file": "1b166360319cb04b.mp3",
+   "voice": "bm_lewis"
+  },
+  "1b2172258e49d6e0": {
+   "dur": 4.0,
+   "file": "1b2172258e49d6e0.mp3",
+   "voice": "bm_lewis"
+  },
+  "1b7ace7fc87c7feb": {
+   "dur": 4.11,
+   "file": "1b7ace7fc87c7feb.mp3",
+   "voice": "bm_lewis"
+  },
+  "1b86268735532c1c": {
+   "dur": 4.29,
+   "file": "1b86268735532c1c.mp3",
+   "voice": "bm_lewis"
+  },
+  "1be9d6f0a11e3059": {
+   "dur": 5.83,
+   "file": "1be9d6f0a11e3059.mp3",
+   "voice": "bm_lewis"
+  },
+  "1c4ffd47bd78f449": {
+   "dur": 2.14,
+   "file": "1c4ffd47bd78f449.mp3",
+   "voice": "bm_lewis"
+  },
+  "1c5b1f4ac5b28a70": {
+   "dur": 2.15,
+   "file": "1c5b1f4ac5b28a70.mp3",
+   "voice": "bm_lewis"
+  },
+  "1c66f644834f2de8": {
+   "dur": 9.78,
+   "file": "1c66f644834f2de8.mp3",
+   "voice": "bm_lewis"
+  },
+  "1c68b7fdefc62b40": {
+   "dur": 3.66,
+   "file": "1c68b7fdefc62b40.mp3",
+   "voice": "bm_lewis"
+  },
+  "1cda595f5e97cd55": {
+   "dur": 4.33,
+   "file": "1cda595f5e97cd55.mp3",
+   "voice": "bm_lewis"
+  },
+  "1d501f41d94575a5": {
+   "dur": 2.25,
+   "file": "1d501f41d94575a5.mp3",
+   "voice": "bm_lewis"
+  },
+  "1db566e6374d7f6f": {
+   "dur": 4.41,
+   "file": "1db566e6374d7f6f.mp3",
+   "voice": "bm_lewis"
+  },
+  "1dc93fa1f2e38f7f": {
+   "dur": 1.95,
+   "file": "1dc93fa1f2e38f7f.mp3",
+   "voice": "bm_lewis"
+  },
+  "1de0bb47e1e42eeb": {
+   "dur": 4.54,
+   "file": "1de0bb47e1e42eeb.mp3",
+   "voice": "bm_lewis"
+  },
+  "1e0db7e33ce579e1": {
+   "dur": 2.02,
+   "file": "1e0db7e33ce579e1.mp3",
+   "voice": "bm_lewis"
+  },
+  "1e19418df2092228": {
+   "dur": 2.31,
+   "file": "1e19418df2092228.mp3",
+   "voice": "bm_lewis"
+  },
+  "1e505211c935d4c8": {
+   "dur": 1.58,
+   "file": "1e505211c935d4c8.mp3",
+   "voice": "bm_lewis"
+  },
+  "1e5605640057318e": {
+   "dur": 2.17,
+   "file": "1e5605640057318e.mp3",
+   "voice": "bm_lewis"
+  },
+  "1ef42427ca28986c": {
+   "dur": 2.37,
+   "file": "1ef42427ca28986c.mp3",
+   "voice": "bm_lewis"
+  },
+  "1efb677afccdcecb": {
+   "dur": 4.53,
+   "file": "1efb677afccdcecb.mp3",
+   "voice": "bm_lewis"
+  },
+  "1f666e86a3e558af": {
+   "dur": 2.26,
+   "file": "1f666e86a3e558af.mp3",
+   "voice": "bm_lewis"
+  },
+  "1fe608132b75ecb8": {
+   "dur": 1.72,
+   "file": "1fe608132b75ecb8.mp3",
+   "voice": "bm_lewis"
+  },
+  "2073d9f323b95c9c": {
+   "dur": 2.23,
+   "file": "2073d9f323b95c9c.mp3",
+   "voice": "bm_lewis"
+  },
+  "210277d6644ddd17": {
+   "dur": 3.83,
+   "file": "210277d6644ddd17.mp3",
+   "voice": "bm_lewis"
+  },
+  "217c35acc4d304c0": {
+   "dur": 1.7,
+   "file": "217c35acc4d304c0.mp3",
+   "voice": "bm_lewis"
+  },
+  "21832803266c739e": {
+   "dur": 2.27,
+   "file": "21832803266c739e.mp3",
+   "voice": "bm_lewis"
+  },
+  "21c51026f143e01d": {
+   "dur": 6.38,
+   "file": "21c51026f143e01d.mp3",
+   "voice": "bm_lewis"
+  },
+  "21d60280fddb6385": {
+   "dur": 1.96,
+   "file": "21d60280fddb6385.mp3",
+   "voice": "bm_lewis"
+  },
+  "223d4a3ad414bbb6": {
+   "dur": 2.23,
+   "file": "223d4a3ad414bbb6.mp3",
+   "voice": "bm_lewis"
+  },
+  "226ba44b39e9a6e3": {
+   "dur": 1.47,
+   "file": "226ba44b39e9a6e3.mp3",
+   "voice": "bm_lewis"
+  },
+  "228afff88d7d1bf0": {
+   "dur": 5.78,
+   "file": "228afff88d7d1bf0.mp3",
+   "voice": "bm_lewis"
+  },
+  "22a6628e2022b60f": {
+   "dur": 2.03,
+   "file": "22a6628e2022b60f.mp3",
+   "voice": "bm_lewis"
+  },
+  "233689701975c8ef": {
+   "dur": 4.06,
+   "file": "233689701975c8ef.mp3",
+   "voice": "bm_lewis"
+  },
+  "235fa7395bce26d9": {
+   "dur": 1.88,
+   "file": "235fa7395bce26d9.mp3",
+   "voice": "bm_lewis"
+  },
+  "241b0674c578f651": {
+   "dur": 4.52,
+   "file": "241b0674c578f651.mp3",
+   "voice": "bm_lewis"
+  },
+  "243b0530bf9c7ac8": {
+   "dur": 2.2,
+   "file": "243b0530bf9c7ac8.mp3",
+   "voice": "bm_lewis"
+  },
+  "24725c2a8cb486bd": {
+   "dur": 1.93,
+   "file": "24725c2a8cb486bd.mp3",
+   "voice": "bm_lewis"
+  },
+  "26f56f7a465826b5": {
+   "dur": 5.98,
+   "file": "26f56f7a465826b5.mp3",
+   "voice": "bm_lewis"
+  },
+  "270e58799ccf0a18": {
+   "dur": 2.69,
+   "file": "270e58799ccf0a18.mp3",
+   "voice": "bm_lewis"
+  },
+  "27db21e08d7e5d38": {
+   "dur": 4.82,
+   "file": "27db21e08d7e5d38.mp3",
+   "voice": "bm_lewis"
+  },
+  "27de4fbc82f6ab12": {
+   "dur": 7.16,
+   "file": "27de4fbc82f6ab12.mp3",
+   "voice": "bm_lewis"
+  },
+  "28405a6c4911db32": {
+   "dur": 1.9,
+   "file": "28405a6c4911db32.mp3",
+   "voice": "bm_lewis"
+  },
+  "285d0763dc8f54c5": {
+   "dur": 1.3,
+   "file": "285d0763dc8f54c5.mp3",
+   "voice": "bm_lewis"
+  },
+  "289c7704283941b1": {
+   "dur": 1.66,
+   "file": "289c7704283941b1.mp3",
+   "voice": "bm_lewis"
+  },
+  "28b9427d751e765a": {
+   "dur": 1.52,
+   "file": "28b9427d751e765a.mp3",
+   "voice": "bm_lewis"
+  },
+  "28c1cb4b39239595": {
+   "dur": 4.3,
+   "file": "28c1cb4b39239595.mp3",
+   "voice": "bm_lewis"
+  },
+  "28e2b22949ceecd5": {
+   "dur": 3.8,
+   "file": "28e2b22949ceecd5.mp3",
+   "voice": "bm_lewis"
+  },
+  "2910578416f3a3f1": {
+   "dur": 2.2,
+   "file": "2910578416f3a3f1.mp3",
+   "voice": "bm_lewis"
+  },
+  "29c9256f328671df": {
+   "dur": 2.55,
+   "file": "29c9256f328671df.mp3",
+   "voice": "bm_lewis"
+  },
+  "2a4661282064c425": {
+   "dur": 1.02,
+   "file": "2a4661282064c425.mp3",
+   "voice": "bm_lewis"
+  },
+  "2a6acd3e0ac2b473": {
+   "dur": 6.67,
+   "file": "2a6acd3e0ac2b473.mp3",
+   "voice": "bm_lewis"
+  },
+  "2abf55f9954d6f50": {
+   "dur": 6.75,
+   "file": "2abf55f9954d6f50.mp3",
+   "voice": "bm_lewis"
+  },
+  "2abf94b52f8d4d37": {
+   "dur": 4.34,
+   "file": "2abf94b52f8d4d37.mp3",
+   "voice": "bm_lewis"
+  },
+  "2ae406e5f69324d6": {
+   "dur": 4.77,
+   "file": "2ae406e5f69324d6.mp3",
+   "voice": "bm_lewis"
+  },
+  "2b01b216e04ab004": {
+   "dur": 2.53,
+   "file": "2b01b216e04ab004.mp3",
+   "voice": "bm_lewis"
+  },
+  "2b7970025b580b9f": {
+   "dur": 3.72,
+   "file": "2b7970025b580b9f.mp3",
+   "voice": "bm_lewis"
+  },
+  "2c0ff9d1ba5983ed": {
+   "dur": 4.58,
+   "file": "2c0ff9d1ba5983ed.mp3",
+   "voice": "bm_lewis"
+  },
+  "2c183c4298e1f5af": {
+   "dur": 2.18,
+   "file": "2c183c4298e1f5af.mp3",
+   "voice": "bm_lewis"
+  },
+  "2c271b35c6679689": {
+   "dur": 2.22,
+   "file": "2c271b35c6679689.mp3",
+   "voice": "bm_lewis"
+  },
+  "2c75e4d479cf239b": {
+   "dur": 2.08,
+   "file": "2c75e4d479cf239b.mp3",
+   "voice": "bm_lewis"
+  },
+  "2c863af8eacd60cc": {
+   "dur": 5.25,
+   "file": "2c863af8eacd60cc.mp3",
+   "voice": "bm_lewis"
+  },
+  "2c99395ed179d27e": {
+   "dur": 1.18,
+   "file": "2c99395ed179d27e.mp3",
+   "voice": "bm_lewis"
+  },
+  "2cf22fb987052074": {
+   "dur": 1.88,
+   "file": "2cf22fb987052074.mp3",
+   "voice": "bm_lewis"
+  },
+  "2d0479a8f7087deb": {
+   "dur": 4.55,
+   "file": "2d0479a8f7087deb.mp3",
+   "voice": "bm_lewis"
+  },
+  "2d2aae4e81a13b85": {
+   "dur": 3.27,
+   "file": "2d2aae4e81a13b85.mp3",
+   "voice": "bm_lewis"
+  },
+  "2d7509abb7993208": {
+   "dur": 3.82,
+   "file": "2d7509abb7993208.mp3",
+   "voice": "bm_lewis"
+  },
+  "2da6e7765c6d8d2e": {
+   "dur": 3.18,
+   "file": "2da6e7765c6d8d2e.mp3",
+   "voice": "bm_lewis"
+  },
+  "2de98df66d302a91": {
+   "dur": 2.19,
+   "file": "2de98df66d302a91.mp3",
+   "voice": "bm_lewis"
+  },
+  "2e3210d18e2e25f6": {
+   "dur": 1.98,
+   "file": "2e3210d18e2e25f6.mp3",
+   "voice": "bm_lewis"
+  },
+  "2e9e3c193201b8ab": {
+   "dur": 4.11,
+   "file": "2e9e3c193201b8ab.mp3",
+   "voice": "bm_lewis"
+  },
+  "2f2398353b049b7b": {
+   "dur": 3.34,
+   "file": "2f2398353b049b7b.mp3",
+   "voice": "bm_lewis"
+  },
+  "2f5393443131cee8": {
+   "dur": 2.22,
+   "file": "2f5393443131cee8.mp3",
+   "voice": "bm_lewis"
+  },
+  "2f78b6df2a9ee372": {
+   "dur": 2.14,
+   "file": "2f78b6df2a9ee372.mp3",
+   "voice": "bm_lewis"
+  },
+  "2fd0617615d8d52e": {
+   "dur": 1.88,
+   "file": "2fd0617615d8d52e.mp3",
+   "voice": "bm_lewis"
+  },
+  "309ffabbb92042fa": {
+   "dur": 1.67,
+   "file": "309ffabbb92042fa.mp3",
+   "voice": "bm_lewis"
+  },
+  "31c71efcb71defb3": {
+   "dur": 2.37,
+   "file": "31c71efcb71defb3.mp3",
+   "voice": "bm_lewis"
+  },
+  "322a6b20f52840e0": {
+   "dur": 2.05,
+   "file": "322a6b20f52840e0.mp3",
+   "voice": "bm_lewis"
+  },
+  "32d70c76d9e00877": {
+   "dur": 5.66,
+   "file": "32d70c76d9e00877.mp3",
+   "voice": "bm_lewis"
+  },
+  "32fb73659c84642b": {
+   "dur": 4.39,
+   "file": "32fb73659c84642b.mp3",
+   "voice": "bm_lewis"
+  },
+  "3300ca9ee89c0d77": {
+   "dur": 2.1,
+   "file": "3300ca9ee89c0d77.mp3",
+   "voice": "bm_lewis"
+  },
+  "334b6ee658331ebd": {
+   "dur": 3.84,
+   "file": "334b6ee658331ebd.mp3",
+   "voice": "bm_lewis"
+  },
+  "33c7b895402a3203": {
+   "dur": 2.26,
+   "file": "33c7b895402a3203.mp3",
+   "voice": "bm_lewis"
+  },
+  "342c61a61677444b": {
+   "dur": 2.05,
+   "file": "342c61a61677444b.mp3",
+   "voice": "bm_lewis"
+  },
+  "343addd535359585": {
+   "dur": 1.84,
+   "file": "343addd535359585.mp3",
+   "voice": "bm_lewis"
+  },
+  "34ff95e01d56263b": {
+   "dur": 6.05,
+   "file": "34ff95e01d56263b.mp3",
+   "voice": "bm_lewis"
+  },
+  "35001b4719d2fc17": {
+   "dur": 4.75,
+   "file": "35001b4719d2fc17.mp3",
+   "voice": "bm_lewis"
+  },
+  "351ff4712768f470": {
+   "dur": 2.98,
+   "file": "351ff4712768f470.mp3",
+   "voice": "bm_lewis"
+  },
+  "3555b4490c41f207": {
+   "dur": 6.75,
+   "file": "3555b4490c41f207.mp3",
+   "voice": "bm_lewis"
+  },
+  "3572eb9b01f72b85": {
+   "dur": 1.37,
+   "file": "3572eb9b01f72b85.mp3",
+   "voice": "bm_lewis"
+  },
+  "357d1b53ccf02e22": {
+   "dur": 5.75,
+   "file": "357d1b53ccf02e22.mp3",
+   "voice": "bm_lewis"
+  },
+  "35d6a507fb2ca10d": {
+   "dur": 2.74,
+   "file": "35d6a507fb2ca10d.mp3",
+   "voice": "bm_lewis"
+  },
+  "35edaf5e5630e30d": {
+   "dur": 2.34,
+   "file": "35edaf5e5630e30d.mp3",
+   "voice": "bm_lewis"
+  },
+  "36ef779a9cf22d73": {
+   "dur": 2.33,
+   "file": "36ef779a9cf22d73.mp3",
+   "voice": "bm_lewis"
+  },
+  "375163d36355696a": {
+   "dur": 24.9,
+   "file": "375163d36355696a_1.mp3",
+   "parts": [
+    "375163d36355696a_1.mp3",
+    "375163d36355696a_2.mp3"
+   ],
+   "voice": "bm_lewis"
+  },
+  "3757d3e23ba3e02c": {
+   "dur": 6.37,
+   "file": "3757d3e23ba3e02c.mp3",
+   "voice": "bm_lewis"
+  },
+  "378a05b83be82754": {
+   "dur": 1.36,
+   "file": "378a05b83be82754.mp3",
+   "voice": "bm_lewis"
+  },
+  "37ba398dc76e4d17": {
+   "dur": 5.45,
+   "file": "37ba398dc76e4d17.mp3",
+   "voice": "bm_lewis"
+  },
+  "37d00c9f1cb139f7": {
+   "dur": 4.47,
+   "file": "37d00c9f1cb139f7.mp3",
+   "voice": "bm_lewis"
+  },
+  "380e4951d8d68c35": {
+   "dur": 4.24,
+   "file": "380e4951d8d68c35.mp3",
+   "voice": "bm_lewis"
+  },
+  "3877c7bcc22579be": {
+   "dur": 2.01,
+   "file": "3877c7bcc22579be.mp3",
+   "voice": "bm_lewis"
+  },
+  "38b32def8a5c148c": {
+   "dur": 2.48,
+   "file": "38b32def8a5c148c.mp3",
+   "voice": "bm_lewis"
+  },
+  "38cb58bb690bebaa": {
+   "dur": 1.67,
+   "file": "38cb58bb690bebaa.mp3",
+   "voice": "bm_lewis"
+  },
+  "394f188e541c88a3": {
+   "dur": 9.79,
+   "file": "394f188e541c88a3.mp3",
+   "voice": "bm_lewis"
+  },
+  "39806fcfab583e3c": {
+   "dur": 3.6,
+   "file": "39806fcfab583e3c.mp3",
+   "voice": "bm_lewis"
+  },
+  "39b9c074e2ee4005": {
+   "dur": 1.71,
+   "file": "39b9c074e2ee4005.mp3",
+   "voice": "bm_lewis"
+  },
+  "3a27d34887e48c44": {
+   "dur": 2.18,
+   "file": "3a27d34887e48c44.mp3",
+   "voice": "bm_lewis"
+  },
+  "3a58b17f99db8270": {
+   "dur": 2.22,
+   "file": "3a58b17f99db8270.mp3",
+   "voice": "bm_lewis"
+  },
+  "3ac6fca5961c4404": {
+   "dur": 4.09,
+   "file": "3ac6fca5961c4404.mp3",
+   "voice": "bm_lewis"
+  },
+  "3b9e0c781477cac5": {
+   "dur": 1.57,
+   "file": "3b9e0c781477cac5.mp3",
+   "voice": "bm_lewis"
+  },
+  "3cf00f6d81e64f0e": {
+   "dur": 2.16,
+   "file": "3cf00f6d81e64f0e.mp3",
+   "voice": "bm_lewis"
+  },
+  "3cfa77fc1968f4c5": {
+   "dur": 5.1,
+   "file": "3cfa77fc1968f4c5.mp3",
+   "voice": "bm_lewis"
+  },
+  "3d0497fe6d81aae2": {
+   "dur": 6.84,
+   "file": "3d0497fe6d81aae2.mp3",
+   "voice": "bm_lewis"
+  },
+  "3d259a8d8f2eac91": {
+   "dur": 6.09,
+   "file": "3d259a8d8f2eac91.mp3",
+   "voice": "bm_lewis"
+  },
+  "3dcffbaf7046b12f": {
+   "dur": 1.84,
+   "file": "3dcffbaf7046b12f.mp3",
+   "voice": "bm_lewis"
+  },
+  "3ddc36db00d994e1": {
+   "dur": 2.04,
+   "file": "3ddc36db00d994e1.mp3",
+   "voice": "bm_lewis"
+  },
+  "3e62c0c97b87c520": {
+   "dur": 3.67,
+   "file": "3e62c0c97b87c520.mp3",
+   "voice": "bm_lewis"
+  },
+  "3ea200a391358602": {
+   "dur": 0.75,
+   "file": "3ea200a391358602.mp3",
+   "voice": "bm_lewis"
+  },
+  "3f0608e8ff4c66df": {
+   "dur": 5.34,
+   "file": "3f0608e8ff4c66df.mp3",
+   "voice": "bm_lewis"
+  },
+  "3f220ee85727edcb": {
+   "dur": 2.22,
+   "file": "3f220ee85727edcb.mp3",
+   "voice": "bm_lewis"
+  },
+  "3f4c934b5e9dfc99": {
+   "dur": 1.96,
+   "file": "3f4c934b5e9dfc99.mp3",
+   "voice": "bm_lewis"
+  },
+  "3f51b1ec83813dd1": {
+   "dur": 2.82,
+   "file": "3f51b1ec83813dd1.mp3",
+   "voice": "bm_lewis"
+  },
+  "3fb71a7f114bebcb": {
+   "dur": 1.77,
+   "file": "3fb71a7f114bebcb.mp3",
+   "voice": "bm_lewis"
+  },
+  "3ff5de3934c13b81": {
+   "dur": 3.52,
+   "file": "3ff5de3934c13b81.mp3",
+   "voice": "bm_lewis"
+  },
+  "40768720c089c37d": {
+   "dur": 5.56,
+   "file": "40768720c089c37d.mp3",
+   "voice": "bm_lewis"
+  },
+  "408ab9a8b775bd4e": {
+   "dur": 3.8,
+   "file": "408ab9a8b775bd4e.mp3",
+   "voice": "bm_lewis"
+  },
+  "41c465b95d2bcd7e": {
+   "dur": 1.79,
+   "file": "41c465b95d2bcd7e.mp3",
+   "voice": "bm_lewis"
+  },
+  "41cd3fa55ba0409a": {
+   "dur": 3.4,
+   "file": "41cd3fa55ba0409a.mp3",
+   "voice": "bm_lewis"
+  },
+  "41fd6982154b3a4f": {
+   "dur": 2.3,
+   "file": "41fd6982154b3a4f.mp3",
+   "voice": "bm_lewis"
+  },
+  "428c1fd54a76017e": {
+   "dur": 1.68,
+   "file": "428c1fd54a76017e.mp3",
+   "voice": "bm_lewis"
+  },
+  "42a76640f3f6707b": {
+   "dur": 2.17,
+   "file": "42a76640f3f6707b.mp3",
+   "voice": "bm_lewis"
+  },
+  "42bc6990f76f7f43": {
+   "dur": 2.12,
+   "file": "42bc6990f76f7f43.mp3",
+   "voice": "bm_lewis"
+  },
+  "42bef86b87406faa": {
+   "dur": 4.34,
+   "file": "42bef86b87406faa.mp3",
+   "voice": "bm_lewis"
+  },
+  "4393e1f332bb1006": {
+   "dur": 3.09,
+   "file": "4393e1f332bb1006.mp3",
+   "voice": "bm_lewis"
+  },
+  "439b376767499233": {
+   "dur": 3.9,
+   "file": "439b376767499233.mp3",
+   "voice": "bm_lewis"
+  },
+  "43f732d5fdcaea49": {
+   "dur": 3.51,
+   "file": "43f732d5fdcaea49.mp3",
+   "voice": "bm_lewis"
+  },
+  "441fd879a0fff68e": {
+   "dur": 7.85,
+   "file": "441fd879a0fff68e.mp3",
+   "voice": "bm_lewis"
+  },
+  "44261e0131024d8c": {
+   "dur": 1.91,
+   "file": "44261e0131024d8c.mp3",
+   "voice": "bm_lewis"
+  },
+  "4445791b760b56df": {
+   "dur": 2.48,
+   "file": "4445791b760b56df.mp3",
+   "voice": "bm_lewis"
+  },
+  "449c2a10ce87e764": {
+   "dur": 3.78,
+   "file": "449c2a10ce87e764.mp3",
+   "voice": "bm_lewis"
+  },
+  "4509189a5ffc97b0": {
+   "dur": 4.65,
+   "file": "4509189a5ffc97b0.mp3",
+   "voice": "bm_lewis"
+  },
+  "46371215b673411f": {
+   "dur": 2.2,
+   "file": "46371215b673411f.mp3",
+   "voice": "bm_lewis"
+  },
+  "468a8f4f3bbaf688": {
+   "dur": 3.49,
+   "file": "468a8f4f3bbaf688.mp3",
+   "voice": "bm_lewis"
+  },
+  "4708d4380b250ac6": {
+   "dur": 2.23,
+   "file": "4708d4380b250ac6.mp3",
+   "voice": "bm_lewis"
+  },
+  "474d73b96cc5058a": {
+   "dur": 4.55,
+   "file": "474d73b96cc5058a.mp3",
+   "voice": "bm_lewis"
+  },
+  "47628c041e0cdefe": {
+   "dur": 8.82,
+   "file": "47628c041e0cdefe.mp3",
+   "voice": "bm_lewis"
+  },
+  "47fdbcad964ef087": {
+   "dur": 3.63,
+   "file": "47fdbcad964ef087.mp3",
+   "voice": "bm_lewis"
+  },
+  "4852687e41cb7bca": {
+   "dur": 4.44,
+   "file": "4852687e41cb7bca.mp3",
+   "voice": "bm_lewis"
+  },
+  "4867d34b256b9999": {
+   "dur": 5.33,
+   "file": "4867d34b256b9999.mp3",
+   "voice": "bm_lewis"
+  },
+  "48d67e5c7a6ea385": {
+   "dur": 5.64,
+   "file": "48d67e5c7a6ea385.mp3",
+   "voice": "bm_lewis"
+  },
+  "48fec126987e0b55": {
+   "dur": 1.89,
+   "file": "48fec126987e0b55.mp3",
+   "voice": "bm_lewis"
+  },
+  "4912667ce4a54e99": {
+   "dur": 5.28,
+   "file": "4912667ce4a54e99.mp3",
+   "voice": "bm_lewis"
+  },
+  "492e6db67b858ff2": {
+   "dur": 2.2,
+   "file": "492e6db67b858ff2.mp3",
+   "voice": "bm_lewis"
+  },
+  "493ffbf4e33cef21": {
+   "dur": 2.42,
+   "file": "493ffbf4e33cef21.mp3",
+   "voice": "bm_lewis"
+  },
+  "49a0ad351f88960a": {
+   "dur": 1.79,
+   "file": "49a0ad351f88960a.mp3",
+   "voice": "bm_lewis"
+  },
+  "49b7d730cd463722": {
+   "dur": 4.62,
+   "file": "49b7d730cd463722.mp3",
+   "voice": "bm_lewis"
+  },
+  "49dc6d15c209d7b4": {
+   "dur": 7.34,
+   "file": "49dc6d15c209d7b4.mp3",
+   "voice": "bm_lewis"
+  },
+  "4a06fff37ac7506f": {
+   "dur": 2.19,
+   "file": "4a06fff37ac7506f.mp3",
+   "voice": "bm_lewis"
+  },
+  "4a5682d0fcf1f8cf": {
+   "dur": 4.91,
+   "file": "4a5682d0fcf1f8cf.mp3",
+   "voice": "bm_lewis"
+  },
+  "4aab531b79339d1a": {
+   "dur": 1.96,
+   "file": "4aab531b79339d1a.mp3",
+   "voice": "bm_lewis"
+  },
+  "4bb3f27b3209837a": {
+   "dur": 2.14,
+   "file": "4bb3f27b3209837a.mp3",
+   "voice": "bm_lewis"
+  },
+  "4c4e93563b6ccd8b": {
+   "dur": 3.37,
+   "file": "4c4e93563b6ccd8b.mp3",
+   "voice": "bm_lewis"
+  },
+  "4c75aa953bd917cb": {
+   "dur": 8.07,
+   "file": "4c75aa953bd917cb.mp3",
+   "voice": "bm_lewis"
+  },
+  "4ca0d1f2c03eaee9": {
+   "dur": 5.28,
+   "file": "4ca0d1f2c03eaee9.mp3",
+   "voice": "bm_lewis"
+  },
+  "4ce00e67a68d4ad3": {
+   "dur": 1.38,
+   "file": "4ce00e67a68d4ad3.mp3",
+   "voice": "bm_lewis"
+  },
+  "4d5def7d02576852": {
+   "dur": 2.02,
+   "file": "4d5def7d02576852.mp3",
+   "voice": "bm_lewis"
+  },
+  "4d6565d91b339a21": {
+   "dur": 7.54,
+   "file": "4d6565d91b339a21.mp3",
+   "voice": "bm_lewis"
+  },
+  "4e17f7b99c62efef": {
+   "dur": 4.31,
+   "file": "4e17f7b99c62efef.mp3",
+   "voice": "bm_lewis"
+  },
+  "4f9719870254e5b2": {
+   "dur": 4.32,
+   "file": "4f9719870254e5b2.mp3",
+   "voice": "bm_lewis"
+  },
+  "4fa668a6212d4e19": {
+   "dur": 2.49,
+   "file": "4fa668a6212d4e19.mp3",
+   "voice": "bm_lewis"
+  },
+  "4fce9612de10a844": {
+   "dur": 1.69,
+   "file": "4fce9612de10a844.mp3",
+   "voice": "bm_lewis"
+  },
+  "4fdcd08580aff659": {
+   "dur": 4.34,
+   "file": "4fdcd08580aff659.mp3",
+   "voice": "bm_lewis"
+  },
+  "50494c7cdb4fc0e5": {
+   "dur": 6.24,
+   "file": "50494c7cdb4fc0e5.mp3",
+   "voice": "bm_lewis"
+  },
+  "5063641e6a2cb83c": {
+   "dur": 2.19,
+   "file": "5063641e6a2cb83c.mp3",
+   "voice": "bm_lewis"
+  },
+  "50c3f232b7db26d7": {
+   "dur": 5.12,
+   "file": "50c3f232b7db26d7.mp3",
+   "voice": "bm_lewis"
+  },
+  "50d2deb9cfd23888": {
+   "dur": 6.93,
+   "file": "50d2deb9cfd23888.mp3",
+   "voice": "bm_lewis"
+  },
+  "50da53722349e0ef": {
+   "dur": 2.22,
+   "file": "50da53722349e0ef.mp3",
+   "voice": "bm_lewis"
+  },
+  "50e335e4a0c52fa5": {
+   "dur": 1.5,
+   "file": "50e335e4a0c52fa5.mp3",
+   "voice": "bm_lewis"
+  },
+  "50fe19189d6d3f3d": {
+   "dur": 4.32,
+   "file": "50fe19189d6d3f3d.mp3",
+   "voice": "bm_lewis"
+  },
+  "5132d1084e17a0b5": {
+   "dur": 6.75,
+   "file": "5132d1084e17a0b5.mp3",
+   "voice": "bm_lewis"
+  },
+  "51414b0ea722fd0b": {
+   "dur": 5.81,
+   "file": "51414b0ea722fd0b.mp3",
+   "voice": "bm_lewis"
+  },
+  "518d9f57f86828a2": {
+   "dur": 2.85,
+   "file": "518d9f57f86828a2.mp3",
+   "voice": "bm_lewis"
+  },
+  "521814bfa3e73c26": {
+   "dur": 2.15,
+   "file": "521814bfa3e73c26.mp3",
+   "voice": "bm_lewis"
+  },
+  "523e82c1f6d5eb6e": {
+   "dur": 2.38,
+   "file": "523e82c1f6d5eb6e.mp3",
+   "voice": "bm_lewis"
+  },
+  "52757a640c731fed": {
+   "dur": 2.01,
+   "file": "52757a640c731fed.mp3",
+   "voice": "bm_lewis"
+  },
+  "5369c9847f22241d": {
+   "dur": 1.74,
+   "file": "5369c9847f22241d.mp3",
+   "voice": "bm_lewis"
+  },
+  "53a6102bad26eddb": {
+   "dur": 2.01,
+   "file": "53a6102bad26eddb.mp3",
+   "voice": "bm_lewis"
+  },
+  "53dad925da1308d3": {
+   "dur": 5.64,
+   "file": "53dad925da1308d3.mp3",
+   "voice": "bm_lewis"
+  },
+  "541e2bfff5495e7d": {
+   "dur": 4.64,
+   "file": "541e2bfff5495e7d.mp3",
+   "voice": "bm_lewis"
+  },
+  "541ee36bb9946442": {
+   "dur": 4.11,
+   "file": "541ee36bb9946442.mp3",
+   "voice": "bm_lewis"
+  },
+  "54ac3fff68692b31": {
+   "dur": 0.98,
+   "file": "54ac3fff68692b31.mp3",
+   "voice": "bm_lewis"
+  },
+  "54befaf648770416": {
+   "dur": 2.44,
+   "file": "54befaf648770416.mp3",
+   "voice": "bm_lewis"
+  },
+  "54d6b8617dfa71f3": {
+   "dur": 6.12,
+   "file": "54d6b8617dfa71f3.mp3",
+   "voice": "bm_lewis"
+  },
+  "551c7d85c5979207": {
+   "dur": 2.25,
+   "file": "551c7d85c5979207.mp3",
+   "voice": "bm_lewis"
+  },
+  "55280f06b45cc8de": {
+   "dur": 4.66,
+   "file": "55280f06b45cc8de.mp3",
+   "voice": "bm_lewis"
+  },
+  "552fb83f0e807362": {
+   "dur": 4.86,
+   "file": "552fb83f0e807362.mp3",
+   "voice": "bm_lewis"
+  },
+  "553c2be11e0762b3": {
+   "dur": 4.97,
+   "file": "553c2be11e0762b3.mp3",
+   "voice": "bm_lewis"
+  },
+  "554387402ae0c04c": {
+   "dur": 5.2,
+   "file": "554387402ae0c04c.mp3",
+   "voice": "bm_lewis"
+  },
+  "55c205622adc8208": {
+   "dur": 2.21,
+   "file": "55c205622adc8208.mp3",
+   "voice": "bm_lewis"
+  },
+  "566d6bec0bd0e8fa": {
+   "dur": 4.01,
+   "file": "566d6bec0bd0e8fa.mp3",
+   "voice": "bm_lewis"
+  },
+  "56f494259ee5bcd1": {
+   "dur": 5.76,
+   "file": "56f494259ee5bcd1.mp3",
+   "voice": "bm_lewis"
+  },
+  "574469e9ec0e443b": {
+   "dur": 3.9,
+   "file": "574469e9ec0e443b.mp3",
+   "voice": "bm_lewis"
+  },
+  "578bf353b174c7a7": {
+   "dur": 4.95,
+   "file": "578bf353b174c7a7.mp3",
+   "voice": "bm_lewis"
+  },
+  "57be9baab1cfa627": {
+   "dur": 0.94,
+   "file": "57be9baab1cfa627.mp3",
+   "voice": "bm_lewis"
+  },
+  "5822d07d1a0d20cc": {
+   "dur": 4.99,
+   "file": "5822d07d1a0d20cc.mp3",
+   "voice": "bm_lewis"
+  },
+  "5875410ddfcc5319": {
+   "dur": 1.89,
+   "file": "5875410ddfcc5319.mp3",
+   "voice": "bm_lewis"
+  },
+  "593275464f889e61": {
+   "dur": 1.7,
+   "file": "593275464f889e61.mp3",
+   "voice": "bm_lewis"
+  },
+  "5a5226d377c42a00": {
+   "dur": 8.43,
+   "file": "5a5226d377c42a00.mp3",
+   "voice": "bm_lewis"
+  },
+  "5ae61d5a6f96bc88": {
+   "dur": 6.92,
+   "file": "5ae61d5a6f96bc88.mp3",
+   "voice": "bm_lewis"
+  },
+  "5ae956184311c7fb": {
+   "dur": 3.97,
+   "file": "5ae956184311c7fb.mp3",
+   "voice": "bm_lewis"
+  },
+  "5b11ac62d0a4b5fd": {
+   "dur": 2.18,
+   "file": "5b11ac62d0a4b5fd.mp3",
+   "voice": "bm_lewis"
+  },
+  "5c2b01024b2913f2": {
+   "dur": 1.96,
+   "file": "5c2b01024b2913f2.mp3",
+   "voice": "bm_lewis"
+  },
+  "5c34f062905d942c": {
+   "dur": 1.85,
+   "file": "5c34f062905d942c.mp3",
+   "voice": "bm_lewis"
+  },
+  "5c7dc2419a078353": {
+   "dur": 13.97,
+   "file": "5c7dc2419a078353.mp3",
+   "voice": "bm_lewis"
+  },
+  "5cdc417ad9e01fe4": {
+   "dur": 1.81,
+   "file": "5cdc417ad9e01fe4.mp3",
+   "voice": "bm_lewis"
+  },
+  "5d4511e19e399d87": {
+   "dur": 1.97,
+   "file": "5d4511e19e399d87.mp3",
+   "voice": "bm_lewis"
+  },
+  "5dfbab575dcc55f9": {
+   "dur": 4.82,
+   "file": "5dfbab575dcc55f9.mp3",
+   "voice": "bm_lewis"
+  },
+  "5e5191d8e38a2474": {
+   "dur": 6.85,
+   "file": "5e5191d8e38a2474.mp3",
+   "voice": "bm_lewis"
+  },
+  "5e7d982799cd3dcc": {
+   "dur": 2.34,
+   "file": "5e7d982799cd3dcc.mp3",
+   "voice": "bm_lewis"
+  },
+  "5ead499f56eaf78a": {
+   "dur": 2.08,
+   "file": "5ead499f56eaf78a.mp3",
+   "voice": "bm_lewis"
+  },
+  "5ed0f1b978b3bd6e": {
+   "dur": 2.38,
+   "file": "5ed0f1b978b3bd6e.mp3",
+   "voice": "bm_lewis"
+  },
+  "5f03fff26077d42a": {
+   "dur": 1.85,
+   "file": "5f03fff26077d42a.mp3",
+   "voice": "bm_lewis"
+  },
+  "5f25dcedfea74184": {
+   "dur": 4.12,
+   "file": "5f25dcedfea74184.mp3",
+   "voice": "bm_lewis"
+  },
+  "5fdf33b0c4e61cbf": {
+   "dur": 7.35,
+   "file": "5fdf33b0c4e61cbf.mp3",
+   "voice": "bm_lewis"
+  },
+  "5ff364b2f86b99c2": {
+   "dur": 3.89,
+   "file": "5ff364b2f86b99c2.mp3",
+   "voice": "bm_lewis"
+  },
+  "6016a654ef46a0c6": {
+   "dur": 4.0,
+   "file": "6016a654ef46a0c6.mp3",
+   "voice": "bm_lewis"
+  },
+  "60587ac3e59aed25": {
+   "dur": 2.73,
+   "file": "60587ac3e59aed25.mp3",
+   "voice": "bm_lewis"
+  },
+  "60677414ef87ae0e": {
+   "dur": 4.99,
+   "file": "60677414ef87ae0e.mp3",
+   "voice": "bm_lewis"
+  },
+  "612a747403b2d9ef": {
+   "dur": 1.93,
+   "file": "612a747403b2d9ef.mp3",
+   "voice": "bm_lewis"
+  },
+  "613daca61f67f65c": {
+   "dur": 2.18,
+   "file": "613daca61f67f65c.mp3",
+   "voice": "bm_lewis"
+  },
+  "61f7e49b4ef6c586": {
+   "dur": 7.45,
+   "file": "61f7e49b4ef6c586.mp3",
+   "voice": "bm_lewis"
+  },
+  "6226a0bc0dacf83a": {
+   "dur": 2.09,
+   "file": "6226a0bc0dacf83a.mp3",
+   "voice": "bm_lewis"
+  },
+  "623113515d483c6a": {
+   "dur": 3.68,
+   "file": "623113515d483c6a.mp3",
+   "voice": "bm_lewis"
+  },
+  "6232978fe69972e8": {
+   "dur": 1.7,
+   "file": "6232978fe69972e8.mp3",
+   "voice": "bm_lewis"
+  },
+  "6236ad93c172ca41": {
+   "dur": 2.08,
+   "file": "6236ad93c172ca41.mp3",
+   "voice": "bm_lewis"
+  },
+  "624d905266248bab": {
+   "dur": 4.79,
+   "file": "624d905266248bab.mp3",
+   "voice": "bm_lewis"
+  },
+  "62d7e3e2ea17bfd3": {
+   "dur": 1.29,
+   "file": "62d7e3e2ea17bfd3.mp3",
+   "voice": "bm_lewis"
+  },
+  "636233d088744e89": {
+   "dur": 2.17,
+   "file": "636233d088744e89.mp3",
+   "voice": "bm_lewis"
+  },
+  "6417fd6768692f9e": {
+   "dur": 6.95,
+   "file": "6417fd6768692f9e.mp3",
+   "voice": "bm_lewis"
+  },
+  "641d99c8149e8507": {
+   "dur": 2.15,
+   "file": "641d99c8149e8507.mp3",
+   "voice": "bm_lewis"
+  },
+  "658f019609ad5881": {
+   "dur": 1.92,
+   "file": "658f019609ad5881.mp3",
+   "voice": "bm_lewis"
+  },
+  "65b7bf74922b9098": {
+   "dur": 1.76,
+   "file": "65b7bf74922b9098.mp3",
+   "voice": "bm_lewis"
+  },
+  "65c9fce186abd68f": {
+   "dur": 3.33,
+   "file": "65c9fce186abd68f.mp3",
+   "voice": "bm_lewis"
+  },
+  "65db0130b220a231": {
+   "dur": 5.47,
+   "file": "65db0130b220a231.mp3",
+   "voice": "bm_lewis"
+  },
+  "660969aaa17b0ba0": {
+   "dur": 3.14,
+   "file": "660969aaa17b0ba0.mp3",
+   "voice": "bm_lewis"
+  },
+  "664b91e022a5b941": {
+   "dur": 1.13,
+   "file": "664b91e022a5b941.mp3",
+   "voice": "bm_lewis"
+  },
+  "66ed0f1444ce8b03": {
+   "dur": 1.76,
+   "file": "66ed0f1444ce8b03.mp3",
+   "voice": "bm_lewis"
+  },
+  "67632165505820bf": {
+   "dur": 2.31,
+   "file": "67632165505820bf.mp3",
+   "voice": "bm_lewis"
+  },
+  "6773d3beec4151ff": {
+   "dur": 2.38,
+   "file": "6773d3beec4151ff.mp3",
+   "voice": "bm_lewis"
+  },
+  "67846176e23d97f1": {
+   "dur": 1.83,
+   "file": "67846176e23d97f1.mp3",
+   "voice": "bm_lewis"
+  },
+  "678da72a0bdb63ef": {
+   "dur": 2.15,
+   "file": "678da72a0bdb63ef.mp3",
+   "voice": "bm_lewis"
+  },
+  "67af7a7175684223": {
+   "dur": 2.59,
+   "file": "67af7a7175684223.mp3",
+   "voice": "bm_lewis"
+  },
+  "67c8c6797919be8e": {
+   "dur": 1.33,
+   "file": "67c8c6797919be8e.mp3",
+   "voice": "bm_lewis"
+  },
+  "67d2d149dfbcc62c": {
+   "dur": 2.17,
+   "file": "67d2d149dfbcc62c.mp3",
+   "voice": "bm_lewis"
+  },
+  "67ee961623cfb34f": {
+   "dur": 3.97,
+   "file": "67ee961623cfb34f.mp3",
+   "voice": "bm_lewis"
+  },
+  "68a03ec2c3df50b3": {
+   "dur": 4.89,
+   "file": "68a03ec2c3df50b3.mp3",
+   "voice": "bm_lewis"
+  },
+  "68a8ba15929d310b": {
+   "dur": 1.78,
+   "file": "68a8ba15929d310b.mp3",
+   "voice": "bm_lewis"
+  },
+  "68db70d42d2ad2bf": {
+   "dur": 1.35,
+   "file": "68db70d42d2ad2bf.mp3",
+   "voice": "bm_lewis"
+  },
+  "692b0da4abd26086": {
+   "dur": 5.17,
+   "file": "692b0da4abd26086.mp3",
+   "voice": "bm_lewis"
+  },
+  "693f3d9f95ffacfb": {
+   "dur": 4.33,
+   "file": "693f3d9f95ffacfb.mp3",
+   "voice": "bm_lewis"
+  },
+  "6949578f54f0982c": {
+   "dur": 3.57,
+   "file": "6949578f54f0982c.mp3",
+   "voice": "bm_lewis"
+  },
+  "6966f9aa0ab76e96": {
+   "dur": 1.74,
+   "file": "6966f9aa0ab76e96.mp3",
+   "voice": "bm_lewis"
+  },
+  "69ff092e6bf30d14": {
+   "dur": 2.14,
+   "file": "69ff092e6bf30d14.mp3",
+   "voice": "bm_lewis"
+  },
+  "6a123532b4a8e5e1": {
+   "dur": 4.89,
+   "file": "6a123532b4a8e5e1.mp3",
+   "voice": "bm_lewis"
+  },
+  "6a2221349774ad04": {
+   "dur": 3.27,
+   "file": "6a2221349774ad04.mp3",
+   "voice": "bm_lewis"
+  },
+  "6ae7d94ca905cb93": {
+   "dur": 2.23,
+   "file": "6ae7d94ca905cb93.mp3",
+   "voice": "bm_lewis"
+  },
+  "6b6ecc86932853b8": {
+   "dur": 1.15,
+   "file": "6b6ecc86932853b8.mp3",
+   "voice": "bm_lewis"
+  },
+  "6b9096bc61f0a2c9": {
+   "dur": 2.28,
+   "file": "6b9096bc61f0a2c9.mp3",
+   "voice": "bm_lewis"
+  },
+  "6ba47fc8f3179633": {
+   "dur": 1.47,
+   "file": "6ba47fc8f3179633.mp3",
+   "voice": "bm_lewis"
+  },
+  "6bf98d9d93ea6ca5": {
+   "dur": 1.9,
+   "file": "6bf98d9d93ea6ca5.mp3",
+   "voice": "bm_lewis"
+  },
+  "6c1a697b39f19f79": {
+   "dur": 2.04,
+   "file": "6c1a697b39f19f79.mp3",
+   "voice": "bm_lewis"
+  },
+  "6c2bb0266404da95": {
+   "dur": 3.04,
+   "file": "6c2bb0266404da95.mp3",
+   "voice": "bm_lewis"
+  },
+  "6d0f935313cad684": {
+   "dur": 4.15,
+   "file": "6d0f935313cad684.mp3",
+   "voice": "bm_lewis"
+  },
+  "6d8dee1812235e82": {
+   "dur": 1.56,
+   "file": "6d8dee1812235e82.mp3",
+   "voice": "bm_lewis"
+  },
+  "6dcdcb0939ea6eba": {
+   "dur": 3.03,
+   "file": "6dcdcb0939ea6eba.mp3",
+   "voice": "bm_lewis"
+  },
+  "6ddfc8244fc57c89": {
+   "dur": 5.08,
+   "file": "6ddfc8244fc57c89.mp3",
+   "voice": "bm_lewis"
+  },
+  "6e608924398ef263": {
+   "dur": 2.18,
+   "file": "6e608924398ef263.mp3",
+   "voice": "bm_lewis"
+  },
+  "6e818c88ef313161": {
+   "dur": 2.32,
+   "file": "6e818c88ef313161.mp3",
+   "voice": "bm_lewis"
+  },
+  "6ea846a893512679": {
+   "dur": 5.18,
+   "file": "6ea846a893512679.mp3",
+   "voice": "bm_lewis"
+  },
+  "6f4a81035d29515f": {
+   "dur": 4.66,
+   "file": "6f4a81035d29515f.mp3",
+   "voice": "bm_lewis"
+  },
+  "6f5804fb7281af13": {
+   "dur": 2.0,
+   "file": "6f5804fb7281af13.mp3",
+   "voice": "bm_lewis"
+  },
+  "6f958d8bfd261743": {
+   "dur": 4.48,
+   "file": "6f958d8bfd261743.mp3",
+   "voice": "bm_lewis"
+  },
+  "6fabcba3f5928834": {
+   "dur": 22.45,
+   "file": "6fabcba3f5928834_1.mp3",
+   "parts": [
+    "6fabcba3f5928834_1.mp3",
+    "6fabcba3f5928834_2.mp3"
+   ],
+   "voice": "bm_lewis"
+  },
+  "7066938858c797ac": {
+   "dur": 4.91,
+   "file": "7066938858c797ac.mp3",
+   "voice": "bm_lewis"
+  },
+  "706f82baf661dd84": {
+   "dur": 4.75,
+   "file": "706f82baf661dd84.mp3",
+   "voice": "bm_lewis"
+  },
+  "715d91ef7e2e8fe2": {
+   "dur": 4.79,
+   "file": "715d91ef7e2e8fe2.mp3",
+   "voice": "bm_lewis"
+  },
+  "71742d139c219f57": {
+   "dur": 3.93,
+   "file": "71742d139c219f57.mp3",
+   "voice": "bm_lewis"
+  },
+  "7183c64c06265aa5": {
+   "dur": 5.12,
+   "file": "7183c64c06265aa5.mp3",
+   "voice": "bm_lewis"
+  },
+  "71d7f24ad54176f3": {
+   "dur": 3.84,
+   "file": "71d7f24ad54176f3.mp3",
+   "voice": "bm_lewis"
+  },
+  "71f2b2505460bb11": {
+   "dur": 4.53,
+   "file": "71f2b2505460bb11.mp3",
+   "voice": "bm_lewis"
+  },
+  "721d78aeacb624f8": {
+   "dur": 4.89,
+   "file": "721d78aeacb624f8.mp3",
+   "voice": "bm_lewis"
+  },
+  "7251e6d12770e2e6": {
+   "dur": 1.54,
+   "file": "7251e6d12770e2e6.mp3",
+   "voice": "bm_lewis"
+  },
+  "729e95e1a7bc538f": {
+   "dur": 2.24,
+   "file": "729e95e1a7bc538f.mp3",
+   "voice": "bm_lewis"
+  },
+  "73a5f4d99fa891f1": {
+   "dur": 1.15,
+   "file": "73a5f4d99fa891f1.mp3",
+   "voice": "bm_lewis"
+  },
+  "73ffa6b61dfcf690": {
+   "dur": 2.19,
+   "file": "73ffa6b61dfcf690.mp3",
+   "voice": "bm_lewis"
+  },
+  "740c3ad6c1bb4ca3": {
+   "dur": 4.06,
+   "file": "740c3ad6c1bb4ca3.mp3",
+   "voice": "bm_lewis"
+  },
+  "741ff77ec658ebf4": {
+   "dur": 3.96,
+   "file": "741ff77ec658ebf4.mp3",
+   "voice": "bm_lewis"
+  },
+  "742f6745a53ea46c": {
+   "dur": 2.0,
+   "file": "742f6745a53ea46c.mp3",
+   "voice": "bm_lewis"
+  },
+  "7450fa1860564f12": {
+   "dur": 4.29,
+   "file": "7450fa1860564f12.mp3",
+   "voice": "bm_lewis"
+  },
+  "74555a0b8b7495e7": {
+   "dur": 2.56,
+   "file": "74555a0b8b7495e7.mp3",
+   "voice": "bm_lewis"
+  },
+  "74978255dd8cfaa5": {
+   "dur": 1.68,
+   "file": "74978255dd8cfaa5.mp3",
+   "voice": "bm_lewis"
+  },
+  "74c6ecd5709eec78": {
+   "dur": 3.34,
+   "file": "74c6ecd5709eec78.mp3",
+   "voice": "bm_lewis"
+  },
+  "74f54bd12019cd1d": {
+   "dur": 8.53,
+   "file": "74f54bd12019cd1d.mp3",
+   "voice": "bm_lewis"
+  },
+  "7532b6837676312c": {
+   "dur": 7.07,
+   "file": "7532b6837676312c.mp3",
+   "voice": "bm_lewis"
+  },
+  "75ccdd2ef5a5b60d": {
+   "dur": 1.46,
+   "file": "75ccdd2ef5a5b60d.mp3",
+   "voice": "bm_lewis"
+  },
+  "75dad4583d1716a7": {
+   "dur": 2.21,
+   "file": "75dad4583d1716a7.mp3",
+   "voice": "bm_lewis"
+  },
+  "76106965acbc671c": {
+   "dur": 11.49,
+   "file": "76106965acbc671c.mp3",
+   "voice": "bm_lewis"
+  },
+  "76333cbf1fbf6d0a": {
+   "dur": 1.69,
+   "file": "76333cbf1fbf6d0a.mp3",
+   "voice": "bm_lewis"
+  },
+  "7642a49454f56312": {
+   "dur": 1.67,
+   "file": "7642a49454f56312.mp3",
+   "voice": "bm_lewis"
+  },
+  "767d2c3c397a4544": {
+   "dur": 4.21,
+   "file": "767d2c3c397a4544.mp3",
+   "voice": "bm_lewis"
+  },
+  "772e545e5b5cbb2d": {
+   "dur": 4.04,
+   "file": "772e545e5b5cbb2d.mp3",
+   "voice": "bm_lewis"
+  },
+  "77d3744b9e736177": {
+   "dur": 8.22,
+   "file": "77d3744b9e736177.mp3",
+   "voice": "bm_lewis"
+  },
+  "77fc73a6bc34dbfc": {
+   "dur": 1.18,
+   "file": "77fc73a6bc34dbfc.mp3",
+   "voice": "bm_lewis"
+  },
+  "7847f473415ba018": {
+   "dur": 5.55,
+   "file": "7847f473415ba018.mp3",
+   "voice": "bm_lewis"
+  },
+  "7868995528d0c811": {
+   "dur": 4.08,
+   "file": "7868995528d0c811.mp3",
+   "voice": "bm_lewis"
+  },
+  "78ad860ebfc877dd": {
+   "dur": 4.02,
+   "file": "78ad860ebfc877dd.mp3",
+   "voice": "bm_lewis"
+  },
+  "78b8b571dc990605": {
+   "dur": 1.77,
+   "file": "78b8b571dc990605.mp3",
+   "voice": "bm_lewis"
+  },
+  "79480ce715b514a9": {
+   "dur": 3.87,
+   "file": "79480ce715b514a9.mp3",
+   "voice": "bm_lewis"
+  },
+  "797c9f440b24ccd1": {
+   "dur": 1.65,
+   "file": "797c9f440b24ccd1.mp3",
+   "voice": "bm_lewis"
+  },
+  "79d81ddfa552ec69": {
+   "dur": 1.75,
+   "file": "79d81ddfa552ec69.mp3",
+   "voice": "bm_lewis"
+  },
+  "7a17e0c2c361429c": {
+   "dur": 1.87,
+   "file": "7a17e0c2c361429c.mp3",
+   "voice": "bm_lewis"
+  },
+  "7a43059252b748a3": {
+   "dur": 11.8,
+   "file": "7a43059252b748a3.mp3",
+   "voice": "bm_lewis"
+  },
+  "7ab31bcdd7e47398": {
+   "dur": 6.25,
+   "file": "7ab31bcdd7e47398.mp3",
+   "voice": "bm_lewis"
+  },
+  "7ad2b284583e4da1": {
+   "dur": 2.18,
+   "file": "7ad2b284583e4da1.mp3",
+   "voice": "bm_lewis"
+  },
+  "7b3e64f63c9b7723": {
+   "dur": 5.55,
+   "file": "7b3e64f63c9b7723.mp3",
+   "voice": "bm_lewis"
+  },
+  "7b4295d9e0374d09": {
+   "dur": 1.8,
+   "file": "7b4295d9e0374d09.mp3",
+   "voice": "bm_lewis"
+  },
+  "7b462b1fbaa9d2d6": {
+   "dur": 5.12,
+   "file": "7b462b1fbaa9d2d6.mp3",
+   "voice": "bm_lewis"
+  },
+  "7bbaba4ab0ba542d": {
+   "dur": 2.9,
+   "file": "7bbaba4ab0ba542d.mp3",
+   "voice": "bm_lewis"
+  },
+  "7bd94a3cbbeba209": {
+   "dur": 3.72,
+   "file": "7bd94a3cbbeba209.mp3",
+   "voice": "bm_lewis"
+  },
+  "7bd9b8c092e9af6f": {
+   "dur": 2.1,
+   "file": "7bd9b8c092e9af6f.mp3",
+   "voice": "bm_lewis"
+  },
+  "7c06bed15f2bee24": {
+   "dur": 2.27,
+   "file": "7c06bed15f2bee24.mp3",
+   "voice": "bm_lewis"
+  },
+  "7c2dacc3b1b003f8": {
+   "dur": 1.59,
+   "file": "7c2dacc3b1b003f8.mp3",
+   "voice": "bm_lewis"
+  },
+  "7c7228861fd64143": {
+   "dur": 3.5,
+   "file": "7c7228861fd64143.mp3",
+   "voice": "bm_lewis"
+  },
+  "7c7a1b805913b5b5": {
+   "dur": 3.5,
+   "file": "7c7a1b805913b5b5.mp3",
+   "voice": "bm_lewis"
+  },
+  "7cb37f00c6098370": {
+   "dur": 3.12,
+   "file": "7cb37f00c6098370.mp3",
+   "voice": "bm_lewis"
+  },
+  "7cbd2449b6cff046": {
+   "dur": 2.31,
+   "file": "7cbd2449b6cff046.mp3",
+   "voice": "bm_lewis"
+  },
+  "7d31b8ac43771ddd": {
+   "dur": 5.17,
+   "file": "7d31b8ac43771ddd.mp3",
+   "voice": "bm_lewis"
+  },
+  "7dc057b5ee056852": {
+   "dur": 4.6,
+   "file": "7dc057b5ee056852.mp3",
+   "voice": "bm_lewis"
+  },
+  "7e4ff01f4199b7fa": {
+   "dur": 1.92,
+   "file": "7e4ff01f4199b7fa.mp3",
+   "voice": "bm_lewis"
+  },
+  "7e63b45631165705": {
+   "dur": 4.8,
+   "file": "7e63b45631165705.mp3",
+   "voice": "bm_lewis"
+  },
+  "7e803951e2958d72": {
+   "dur": 2.64,
+   "file": "7e803951e2958d72.mp3",
+   "voice": "bm_lewis"
+  },
+  "7e8a7b5c79510b67": {
+   "dur": 2.3,
+   "file": "7e8a7b5c79510b67.mp3",
+   "voice": "bm_lewis"
+  },
+  "7effa96f84a2af3e": {
+   "dur": 1.43,
+   "file": "7effa96f84a2af3e.mp3",
+   "voice": "bm_lewis"
+  },
+  "80dac8892f924b0e": {
+   "dur": 4.86,
+   "file": "80dac8892f924b0e.mp3",
+   "voice": "bm_lewis"
+  },
+  "811d5b8e994778f4": {
+   "dur": 4.26,
+   "file": "811d5b8e994778f4.mp3",
+   "voice": "bm_lewis"
+  },
+  "8121daeb8db52217": {
+   "dur": 2.24,
+   "file": "8121daeb8db52217.mp3",
+   "voice": "bm_lewis"
+  },
+  "815c877413e9c94d": {
+   "dur": 8.37,
+   "file": "815c877413e9c94d.mp3",
+   "voice": "bm_lewis"
+  },
+  "81ba90a5fe1e8a1a": {
+   "dur": 2.3,
+   "file": "81ba90a5fe1e8a1a.mp3",
+   "voice": "bm_lewis"
+  },
+  "8210995d937d8c3a": {
+   "dur": 1.9,
+   "file": "8210995d937d8c3a.mp3",
+   "voice": "bm_lewis"
+  },
+  "82564f60065a6aea": {
+   "dur": 2.07,
+   "file": "82564f60065a6aea.mp3",
+   "voice": "bm_lewis"
+  },
+  "829a487272b9e4f0": {
+   "dur": 3.79,
+   "file": "829a487272b9e4f0.mp3",
+   "voice": "bm_lewis"
+  },
+  "830d129f380d9a51": {
+   "dur": 2.23,
+   "file": "830d129f380d9a51.mp3",
+   "voice": "bm_lewis"
+  },
+  "8311317ad9aca6c1": {
+   "dur": 2.91,
+   "file": "8311317ad9aca6c1.mp3",
+   "voice": "bm_lewis"
+  },
+  "8318f77fab5530e9": {
+   "dur": 2.19,
+   "file": "8318f77fab5530e9.mp3",
+   "voice": "bm_lewis"
+  },
+  "832a5961ab471df8": {
+   "dur": 5.96,
+   "file": "832a5961ab471df8.mp3",
+   "voice": "bm_lewis"
+  },
+  "8434e1b745f317e5": {
+   "dur": 2.07,
+   "file": "8434e1b745f317e5.mp3",
+   "voice": "bm_lewis"
+  },
+  "85383172d8d89422": {
+   "dur": 6.17,
+   "file": "85383172d8d89422.mp3",
+   "voice": "bm_lewis"
+  },
+  "857bc6a0d709fee1": {
+   "dur": 2.2,
+   "file": "857bc6a0d709fee1.mp3",
+   "voice": "bm_lewis"
+  },
+  "8592a804ca5f1f88": {
+   "dur": 1.79,
+   "file": "8592a804ca5f1f88.mp3",
+   "voice": "bm_lewis"
+  },
+  "85b17a5fca4135ba": {
+   "dur": 5.43,
+   "file": "85b17a5fca4135ba.mp3",
+   "voice": "bm_lewis"
+  },
+  "85ecc2f41f5f02d6": {
+   "dur": 4.58,
+   "file": "85ecc2f41f5f02d6.mp3",
+   "voice": "bm_lewis"
+  },
+  "8612cdb06079e171": {
+   "dur": 2.51,
+   "file": "8612cdb06079e171.mp3",
+   "voice": "bm_lewis"
+  },
+  "866c88cdadc51ec6": {
+   "dur": 5.29,
+   "file": "866c88cdadc51ec6.mp3",
+   "voice": "bm_lewis"
+  },
+  "86a2942e72c4c49c": {
+   "dur": 3.28,
+   "file": "86a2942e72c4c49c.mp3",
+   "voice": "bm_lewis"
+  },
+  "87297cd0f9de9028": {
+   "dur": 2.1,
+   "file": "87297cd0f9de9028.mp3",
+   "voice": "bm_lewis"
+  },
+  "878c26eac8710641": {
+   "dur": 3.34,
+   "file": "878c26eac8710641.mp3",
+   "voice": "bm_lewis"
+  },
+  "8802c445a58849d0": {
+   "dur": 3.48,
+   "file": "8802c445a58849d0.mp3",
+   "voice": "bm_lewis"
+  },
+  "886676afca72b46e": {
+   "dur": 2.81,
+   "file": "886676afca72b46e.mp3",
+   "voice": "bm_lewis"
+  },
+  "88e294a586268bce": {
+   "dur": 1.95,
+   "file": "88e294a586268bce.mp3",
+   "voice": "bm_lewis"
+  },
+  "8959c149a8581ffc": {
+   "dur": 3.25,
+   "file": "8959c149a8581ffc.mp3",
+   "voice": "bm_lewis"
+  },
+  "89ccd955631036b4": {
+   "dur": 1.28,
+   "file": "89ccd955631036b4.mp3",
+   "voice": "bm_lewis"
+  },
+  "89cfaab71ad3a355": {
+   "dur": 3.62,
+   "file": "89cfaab71ad3a355.mp3",
+   "voice": "bm_lewis"
+  },
+  "8a0d706b6c6e7551": {
+   "dur": 2.21,
+   "file": "8a0d706b6c6e7551.mp3",
+   "voice": "bm_lewis"
+  },
+  "8a16a462ab728f16": {
+   "dur": 1.95,
+   "file": "8a16a462ab728f16.mp3",
+   "voice": "bm_lewis"
+  },
+  "8a4780602965cb76": {
+   "dur": 2.1,
+   "file": "8a4780602965cb76.mp3",
+   "voice": "bm_lewis"
+  },
+  "8a7f4f9682ec80c1": {
+   "dur": 2.46,
+   "file": "8a7f4f9682ec80c1.mp3",
+   "voice": "bm_lewis"
+  },
+  "8a8bd34c27e8d776": {
+   "dur": 8.65,
+   "file": "8a8bd34c27e8d776.mp3",
+   "voice": "bm_lewis"
+  },
+  "8a9dff5451cf2781": {
+   "dur": 1.99,
+   "file": "8a9dff5451cf2781.mp3",
+   "voice": "bm_lewis"
+  },
+  "8b046920b8474adf": {
+   "dur": 5.07,
+   "file": "8b046920b8474adf.mp3",
+   "voice": "bm_lewis"
+  },
+  "8b16c17bd1400732": {
+   "dur": 2.01,
+   "file": "8b16c17bd1400732.mp3",
+   "voice": "bm_lewis"
+  },
+  "8b803add03ad0d91": {
+   "dur": 1.97,
+   "file": "8b803add03ad0d91.mp3",
+   "voice": "bm_lewis"
+  },
+  "8bed662973fbce93": {
+   "dur": 2.3,
+   "file": "8bed662973fbce93.mp3",
+   "voice": "bm_lewis"
+  },
+  "8c1561f5060d4f14": {
+   "dur": 2.28,
+   "file": "8c1561f5060d4f14.mp3",
+   "voice": "bm_lewis"
+  },
+  "8c23d7ca7f32467b": {
+   "dur": 5.8,
+   "file": "8c23d7ca7f32467b.mp3",
+   "voice": "bm_lewis"
+  },
+  "8c7eea1a32a8067c": {
+   "dur": 2.21,
+   "file": "8c7eea1a32a8067c.mp3",
+   "voice": "bm_lewis"
+  },
+  "8ca1a1b20172e92f": {
+   "dur": 2.24,
+   "file": "8ca1a1b20172e92f.mp3",
+   "voice": "bm_lewis"
+  },
+  "8d2fd86e2ed74349": {
+   "dur": 4.71,
+   "file": "8d2fd86e2ed74349.mp3",
+   "voice": "bm_lewis"
+  },
+  "8d5f246d48194fee": {
+   "dur": 1.86,
+   "file": "8d5f246d48194fee.mp3",
+   "voice": "bm_lewis"
+  },
+  "8dba8ab6792a066b": {
+   "dur": 4.13,
+   "file": "8dba8ab6792a066b.mp3",
+   "voice": "bm_lewis"
+  },
+  "8dc19b2e56406722": {
+   "dur": 1.73,
+   "file": "8dc19b2e56406722.mp3",
+   "voice": "bm_lewis"
+  },
+  "8dc2ac561566a656": {
+   "dur": 2.06,
+   "file": "8dc2ac561566a656.mp3",
+   "voice": "bm_lewis"
+  },
+  "8de76420b88fbd6a": {
+   "dur": 3.37,
+   "file": "8de76420b88fbd6a.mp3",
+   "voice": "bm_lewis"
+  },
+  "8e1060e9d25760d3": {
+   "dur": 6.38,
+   "file": "8e1060e9d25760d3.mp3",
+   "voice": "bm_lewis"
+  },
+  "8ef506514ed9f602": {
+   "dur": 2.03,
+   "file": "8ef506514ed9f602.mp3",
+   "voice": "bm_lewis"
+  },
+  "8f749b4a0dce07a6": {
+   "dur": 5.11,
+   "file": "8f749b4a0dce07a6.mp3",
+   "voice": "bm_lewis"
+  },
+  "8f9e238f8e1a7115": {
+   "dur": 2.25,
+   "file": "8f9e238f8e1a7115.mp3",
+   "voice": "bm_lewis"
+  },
+  "8ffff561a1afbe22": {
+   "dur": 1.98,
+   "file": "8ffff561a1afbe22.mp3",
+   "voice": "bm_lewis"
+  },
+  "90035110c014e450": {
+   "dur": 2.41,
+   "file": "90035110c014e450.mp3",
+   "voice": "bm_lewis"
+  },
+  "90118d40375a09c2": {
+   "dur": 2.19,
+   "file": "90118d40375a09c2.mp3",
+   "voice": "bm_lewis"
+  },
+  "90609a6e108b7869": {
+   "dur": 5.55,
+   "file": "90609a6e108b7869.mp3",
+   "voice": "bm_lewis"
+  },
+  "90d0ba8c6c0673bd": {
+   "dur": 1.72,
+   "file": "90d0ba8c6c0673bd.mp3",
+   "voice": "bm_lewis"
+  },
+  "910d6a4441ab6250": {
+   "dur": 3.64,
+   "file": "910d6a4441ab6250.mp3",
+   "voice": "bm_lewis"
+  },
+  "910e96c23c20d51d": {
+   "dur": 1.67,
+   "file": "910e96c23c20d51d.mp3",
+   "voice": "bm_lewis"
+  },
+  "9126c885232709ba": {
+   "dur": 1.75,
+   "file": "9126c885232709ba.mp3",
+   "voice": "bm_lewis"
+  },
+  "913031e5aa29f609": {
+   "dur": 4.34,
+   "file": "913031e5aa29f609.mp3",
+   "voice": "bm_lewis"
+  },
+  "91cc3ace982e2a77": {
+   "dur": 3.75,
+   "file": "91cc3ace982e2a77.mp3",
+   "voice": "bm_lewis"
+  },
+  "921f3a7374f37399": {
+   "dur": 5.18,
+   "file": "921f3a7374f37399.mp3",
+   "voice": "bm_lewis"
+  },
+  "921f92fff2942b8b": {
+   "dur": 2.5,
+   "file": "921f92fff2942b8b.mp3",
+   "voice": "bm_lewis"
+  },
+  "9249f8bc6cf85a2c": {
+   "dur": 2.23,
+   "file": "9249f8bc6cf85a2c.mp3",
+   "voice": "bm_lewis"
+  },
+  "93103a044337d26e": {
+   "dur": 2.18,
+   "file": "93103a044337d26e.mp3",
+   "voice": "bm_lewis"
+  },
+  "933ed5e3a5c661f1": {
+   "dur": 5.06,
+   "file": "933ed5e3a5c661f1.mp3",
+   "voice": "bm_lewis"
+  },
+  "93f613c96f0fb60f": {
+   "dur": 4.76,
+   "file": "93f613c96f0fb60f.mp3",
+   "voice": "bm_lewis"
+  },
+  "940d370b58fb9e42": {
+   "dur": 5.21,
+   "file": "940d370b58fb9e42.mp3",
+   "voice": "bm_lewis"
+  },
+  "94c6d8dcfe54d3cd": {
+   "dur": 2.11,
+   "file": "94c6d8dcfe54d3cd.mp3",
+   "voice": "bm_lewis"
+  },
+  "94e8251bd55e0e83": {
+   "dur": 4.39,
+   "file": "94e8251bd55e0e83.mp3",
+   "voice": "bm_lewis"
+  },
+  "94e873a2b834ed03": {
+   "dur": 1.68,
+   "file": "94e873a2b834ed03.mp3",
+   "voice": "bm_lewis"
+  },
+  "94ea13bd3864b650": {
+   "dur": 2.74,
+   "file": "94ea13bd3864b650.mp3",
+   "voice": "bm_lewis"
+  },
+  "9518d70adef17603": {
+   "dur": 7.38,
+   "file": "9518d70adef17603.mp3",
+   "voice": "bm_lewis"
+  },
+  "9524063336179a2d": {
+   "dur": 1.94,
+   "file": "9524063336179a2d.mp3",
+   "voice": "bm_lewis"
+  },
+  "959892290951e193": {
+   "dur": 2.54,
+   "file": "959892290951e193.mp3",
+   "voice": "bm_lewis"
+  },
+  "95a8263b029ca8fe": {
+   "dur": 1.84,
+   "file": "95a8263b029ca8fe.mp3",
+   "voice": "bm_lewis"
+  },
+  "964ff7e93df51dbc": {
+   "dur": 5.76,
+   "file": "964ff7e93df51dbc.mp3",
+   "voice": "bm_lewis"
+  },
+  "96aef11d5048b580": {
+   "dur": 11.0,
+   "file": "96aef11d5048b580.mp3",
+   "voice": "bm_lewis"
+  },
+  "9728751f493e08e5": {
+   "dur": 3.83,
+   "file": "9728751f493e08e5.mp3",
+   "voice": "bm_lewis"
+  },
+  "977cdfa290b60ef2": {
+   "dur": 1.32,
+   "file": "977cdfa290b60ef2.mp3",
+   "voice": "bm_lewis"
+  },
+  "97ec910c896767c6": {
+   "dur": 2.21,
+   "file": "97ec910c896767c6.mp3",
+   "voice": "bm_lewis"
+  },
+  "9818d6c714c0e467": {
+   "dur": 1.94,
+   "file": "9818d6c714c0e467.mp3",
+   "voice": "bm_lewis"
+  },
+  "9872801ae2c8b2f4": {
+   "dur": 13.5,
+   "file": "9872801ae2c8b2f4.mp3",
+   "voice": "bm_lewis"
+  },
+  "98e2f60a96e2bcd4": {
+   "dur": 3.88,
+   "file": "98e2f60a96e2bcd4.mp3",
+   "voice": "bm_lewis"
+  },
+  "98f2f6a13ae76686": {
+   "dur": 2.61,
+   "file": "98f2f6a13ae76686.mp3",
+   "voice": "bm_lewis"
+  },
+  "991f44de21837bda": {
+   "dur": 8.4,
+   "file": "991f44de21837bda.mp3",
+   "voice": "bm_lewis"
+  },
+  "99247855f37c8bcd": {
+   "dur": 2.17,
+   "file": "99247855f37c8bcd.mp3",
+   "voice": "bm_lewis"
+  },
+  "993d40162310e084": {
+   "dur": 1.69,
+   "file": "993d40162310e084.mp3",
+   "voice": "bm_lewis"
+  },
+  "998f0377376e77d9": {
+   "dur": 4.27,
+   "file": "998f0377376e77d9.mp3",
+   "voice": "bm_lewis"
+  },
+  "9b9189c21ffec3dd": {
+   "dur": 6.28,
+   "file": "9b9189c21ffec3dd.mp3",
+   "voice": "bm_lewis"
+  },
+  "9c5dbf9d1e7ee8b7": {
+   "dur": 2.9,
+   "file": "9c5dbf9d1e7ee8b7.mp3",
+   "voice": "bm_lewis"
+  },
+  "9c5eb05d086e4015": {
+   "dur": 1.99,
+   "file": "9c5eb05d086e4015.mp3",
+   "voice": "bm_lewis"
+  },
+  "9c66a80f1837d4d7": {
+   "dur": 5.16,
+   "file": "9c66a80f1837d4d7.mp3",
+   "voice": "bm_lewis"
+  },
+  "9dafd83caf276ecc": {
+   "dur": 2.2,
+   "file": "9dafd83caf276ecc.mp3",
+   "voice": "bm_lewis"
+  },
+  "9ddbbd018d88ba7e": {
+   "dur": 3.63,
+   "file": "9ddbbd018d88ba7e.mp3",
+   "voice": "bm_lewis"
+  },
+  "9deca02394d096a8": {
+   "dur": 4.64,
+   "file": "9deca02394d096a8.mp3",
+   "voice": "bm_lewis"
+  },
+  "9ea8b498054d9abc": {
+   "dur": 2.53,
+   "file": "9ea8b498054d9abc.mp3",
+   "voice": "bm_lewis"
+  },
+  "9eeb7f70c5859be8": {
+   "dur": 4.21,
+   "file": "9eeb7f70c5859be8.mp3",
+   "voice": "bm_lewis"
+  },
+  "9f16002248e927c2": {
+   "dur": 1.86,
+   "file": "9f16002248e927c2.mp3",
+   "voice": "bm_lewis"
+  },
+  "9f695063dec2650b": {
+   "dur": 5.67,
+   "file": "9f695063dec2650b.mp3",
+   "voice": "bm_lewis"
+  },
+  "9f77f89c7c1439ab": {
+   "dur": 1.76,
+   "file": "9f77f89c7c1439ab.mp3",
+   "voice": "bm_lewis"
+  },
+  "9fb4c9b893ded5a7": {
+   "dur": 2.26,
+   "file": "9fb4c9b893ded5a7.mp3",
+   "voice": "bm_lewis"
+  },
+  "9fd66e31bddb782c": {
+   "dur": 1.85,
+   "file": "9fd66e31bddb782c.mp3",
+   "voice": "bm_lewis"
+  },
+  "a01533ab46efb519": {
+   "dur": 2.27,
+   "file": "a01533ab46efb519.mp3",
+   "voice": "bm_lewis"
+  },
+  "a0182b28f83b1c43": {
+   "dur": 3.62,
+   "file": "a0182b28f83b1c43.mp3",
+   "voice": "bm_lewis"
+  },
+  "a044bbb2c2b66ce4": {
+   "dur": 1.76,
+   "file": "a044bbb2c2b66ce4.mp3",
+   "voice": "bm_lewis"
+  },
+  "a0474dbbb119517b": {
+   "dur": 5.33,
+   "file": "a0474dbbb119517b.mp3",
+   "voice": "bm_lewis"
+  },
+  "a0614c75b25e1057": {
+   "dur": 2.42,
+   "file": "a0614c75b25e1057.mp3",
+   "voice": "bm_lewis"
+  },
+  "a0e3782a29f05d48": {
+   "dur": 4.95,
+   "file": "a0e3782a29f05d48.mp3",
+   "voice": "bm_lewis"
+  },
+  "a0e8876af74d081e": {
+   "dur": 5.29,
+   "file": "a0e8876af74d081e.mp3",
+   "voice": "bm_lewis"
+  },
+  "a108d96d0c097f38": {
+   "dur": 2.32,
+   "file": "a108d96d0c097f38.mp3",
+   "voice": "bm_lewis"
+  },
+  "a10b509e81ffc25f": {
+   "dur": 6.4,
+   "file": "a10b509e81ffc25f.mp3",
+   "voice": "bm_lewis"
+  },
+  "a116edcdda7e3c98": {
+   "dur": 1.74,
+   "file": "a116edcdda7e3c98.mp3",
+   "voice": "bm_lewis"
+  },
+  "a15231289b92b931": {
+   "dur": 4.47,
+   "file": "a15231289b92b931.mp3",
+   "voice": "bm_lewis"
+  },
+  "a1b43d1815e2745f": {
+   "dur": 8.87,
+   "file": "a1b43d1815e2745f.mp3",
+   "voice": "bm_lewis"
+  },
+  "a210a6388c4779d1": {
+   "dur": 2.12,
+   "file": "a210a6388c4779d1.mp3",
+   "voice": "bm_lewis"
+  },
+  "a22c27ee17a2aab7": {
+   "dur": 7.05,
+   "file": "a22c27ee17a2aab7.mp3",
+   "voice": "bm_lewis"
+  },
+  "a2ed92bf47ca761a": {
+   "dur": 2.89,
+   "file": "a2ed92bf47ca761a.mp3",
+   "voice": "bm_lewis"
+  },
+  "a330f1ceb619be95": {
+   "dur": 1.85,
+   "file": "a330f1ceb619be95.mp3",
+   "voice": "bm_lewis"
+  },
+  "a34fa6ed8ee18b6e": {
+   "dur": 3.86,
+   "file": "a34fa6ed8ee18b6e.mp3",
+   "voice": "bm_lewis"
+  },
+  "a364d118e72ae5cc": {
+   "dur": 2.08,
+   "file": "a364d118e72ae5cc.mp3",
+   "voice": "bm_lewis"
+  },
+  "a3790fbd93406db9": {
+   "dur": 2.36,
+   "file": "a3790fbd93406db9.mp3",
+   "voice": "bm_lewis"
+  },
+  "a3fecfc9794bf3d0": {
+   "dur": 20.59,
+   "file": "a3fecfc9794bf3d0_1.mp3",
+   "parts": [
+    "a3fecfc9794bf3d0_1.mp3",
+    "a3fecfc9794bf3d0_2.mp3"
+   ],
+   "voice": "bm_lewis"
+  },
+  "a40ed1c1596bc320": {
+   "dur": 5.38,
+   "file": "a40ed1c1596bc320.mp3",
+   "voice": "bm_lewis"
+  },
+  "a45c8fca7d8d6a1e": {
+   "dur": 3.89,
+   "file": "a45c8fca7d8d6a1e.mp3",
+   "voice": "bm_lewis"
+  },
+  "a4ef8116f025cad7": {
+   "dur": 1.26,
+   "file": "a4ef8116f025cad7.mp3",
+   "voice": "bm_lewis"
+  },
+  "a605287145abfceb": {
+   "dur": 11.29,
+   "file": "a605287145abfceb.mp3",
+   "voice": "bm_lewis"
+  },
+  "a649c764cd2d40ac": {
+   "dur": 6.51,
+   "file": "a649c764cd2d40ac.mp3",
+   "voice": "bm_lewis"
+  },
+  "a671a99af7db17fa": {
+   "dur": 4.55,
+   "file": "a671a99af7db17fa.mp3",
+   "voice": "bm_lewis"
+  },
+  "a6aeb94472b5c1ee": {
+   "dur": 4.55,
+   "file": "a6aeb94472b5c1ee.mp3",
+   "voice": "bm_lewis"
+  },
+  "a6cc613bc6665966": {
+   "dur": 1.72,
+   "file": "a6cc613bc6665966.mp3",
+   "voice": "bm_lewis"
+  },
+  "a6f2b6548e54489c": {
+   "dur": 2.86,
+   "file": "a6f2b6548e54489c.mp3",
+   "voice": "bm_lewis"
+  },
+  "a72e353205604a6f": {
+   "dur": 2.3,
+   "file": "a72e353205604a6f.mp3",
+   "voice": "bm_lewis"
+  },
+  "a77c0441355559d8": {
+   "dur": 5.35,
+   "file": "a77c0441355559d8.mp3",
+   "voice": "bm_lewis"
+  },
+  "a791f2ce7d0862ab": {
+   "dur": 2.03,
+   "file": "a791f2ce7d0862ab.mp3",
+   "voice": "bm_lewis"
+  },
+  "a7ac2227ecc20f4a": {
+   "dur": 2.19,
+   "file": "a7ac2227ecc20f4a.mp3",
+   "voice": "bm_lewis"
+  },
+  "a7d0a32ad26c2ac3": {
+   "dur": 1.75,
+   "file": "a7d0a32ad26c2ac3.mp3",
+   "voice": "bm_lewis"
+  },
+  "a86a62b688b8f8a9": {
+   "dur": 5.84,
+   "file": "a86a62b688b8f8a9.mp3",
+   "voice": "bm_lewis"
+  },
+  "a9add7fb076ca5a6": {
+   "dur": 2.33,
+   "file": "a9add7fb076ca5a6.mp3",
+   "voice": "bm_lewis"
+  },
+  "ab2093ebe54453fa": {
+   "dur": 5.29,
+   "file": "ab2093ebe54453fa.mp3",
+   "voice": "bm_lewis"
+  },
+  "abaca1fde1817e09": {
+   "dur": 2.18,
+   "file": "abaca1fde1817e09.mp3",
+   "voice": "bm_lewis"
+  },
+  "ac454ea92a5b9f3d": {
+   "dur": 2.16,
+   "file": "ac454ea92a5b9f3d.mp3",
+   "voice": "bm_lewis"
+  },
+  "acd0e2d6858d77b9": {
+   "dur": 4.03,
+   "file": "acd0e2d6858d77b9.mp3",
+   "voice": "bm_lewis"
+  },
+  "ad06011338713f4a": {
+   "dur": 1.72,
+   "file": "ad06011338713f4a.mp3",
+   "voice": "bm_lewis"
+  },
+  "ad07b4e2a90384ed": {
+   "dur": 2.49,
+   "file": "ad07b4e2a90384ed.mp3",
+   "voice": "bm_lewis"
+  },
+  "ad14dbaddfe3ad23": {
+   "dur": 4.04,
+   "file": "ad14dbaddfe3ad23.mp3",
+   "voice": "bm_lewis"
+  },
+  "adcf5f77a9c6e643": {
+   "dur": 8.74,
+   "file": "adcf5f77a9c6e643.mp3",
+   "voice": "bm_lewis"
+  },
+  "adec2b456dec0cfa": {
+   "dur": 3.61,
+   "file": "adec2b456dec0cfa.mp3",
+   "voice": "bm_lewis"
+  },
+  "ae1f83d9db43af9c": {
+   "dur": 1.85,
+   "file": "ae1f83d9db43af9c.mp3",
+   "voice": "bm_lewis"
+  },
+  "ae433e4290b2c108": {
+   "dur": 3.31,
+   "file": "ae433e4290b2c108.mp3",
+   "voice": "bm_lewis"
+  },
+  "ae5cf73ce564e258": {
+   "dur": 2.2,
+   "file": "ae5cf73ce564e258.mp3",
+   "voice": "bm_lewis"
+  },
+  "aefa4931aa05d3b5": {
+   "dur": 3.85,
+   "file": "aefa4931aa05d3b5.mp3",
+   "voice": "bm_lewis"
+  },
+  "af3876eb4e52d468": {
+   "dur": 2.3,
+   "file": "af3876eb4e52d468.mp3",
+   "voice": "bm_lewis"
+  },
+  "af85d16344077f8c": {
+   "dur": 5.19,
+   "file": "af85d16344077f8c.mp3",
+   "voice": "bm_lewis"
+  },
+  "af95027db5776e67": {
+   "dur": 2.17,
+   "file": "af95027db5776e67.mp3",
+   "voice": "bm_lewis"
+  },
+  "afb7ab446572b33a": {
+   "dur": 2.03,
+   "file": "afb7ab446572b33a.mp3",
+   "voice": "bm_lewis"
+  },
+  "afe7c4abee43a8bf": {
+   "dur": 4.73,
+   "file": "afe7c4abee43a8bf.mp3",
+   "voice": "bm_lewis"
+  },
+  "b032ebb0eaed9202": {
+   "dur": 4.5,
+   "file": "b032ebb0eaed9202.mp3",
+   "voice": "bm_lewis"
+  },
+  "b072401b3b910a52": {
+   "dur": 1.97,
+   "file": "b072401b3b910a52.mp3",
+   "voice": "bm_lewis"
+  },
+  "b08f22213ad1af54": {
+   "dur": 6.85,
+   "file": "b08f22213ad1af54.mp3",
+   "voice": "bm_lewis"
+  },
+  "b10cb820cc7a1f10": {
+   "dur": 2.25,
+   "file": "b10cb820cc7a1f10.mp3",
+   "voice": "bm_lewis"
+  },
+  "b10e521eb96aeac1": {
+   "dur": 3.26,
+   "file": "b10e521eb96aeac1.mp3",
+   "voice": "bm_lewis"
+  },
+  "b11b392aa6a3fd66": {
+   "dur": 1.8,
+   "file": "b11b392aa6a3fd66.mp3",
+   "voice": "bm_lewis"
+  },
+  "b16158400e48a248": {
+   "dur": 1.8,
+   "file": "b16158400e48a248.mp3",
+   "voice": "bm_lewis"
+  },
+  "b171f797dc55732c": {
+   "dur": 32.46,
+   "file": "b171f797dc55732c_1.mp3",
+   "parts": [
+    "b171f797dc55732c_1.mp3",
+    "b171f797dc55732c_2.mp3"
+   ],
+   "voice": "bm_lewis"
+  },
+  "b175aa589937e289": {
+   "dur": 2.46,
+   "file": "b175aa589937e289.mp3",
+   "voice": "bm_lewis"
+  },
+  "b26dcc38e8efc89d": {
+   "dur": 3.95,
+   "file": "b26dcc38e8efc89d.mp3",
+   "voice": "bm_lewis"
+  },
+  "b2839ff37dafcc82": {
+   "dur": 7.36,
+   "file": "b2839ff37dafcc82.mp3",
+   "voice": "bm_lewis"
+  },
+  "b2b91198d480ec1c": {
+   "dur": 3.53,
+   "file": "b2b91198d480ec1c.mp3",
+   "voice": "bm_lewis"
+  },
+  "b2c62209d4c2a177": {
+   "dur": 3.25,
+   "file": "b2c62209d4c2a177.mp3",
+   "voice": "bm_lewis"
+  },
+  "b30f2bd84dce18c2": {
+   "dur": 1.74,
+   "file": "b30f2bd84dce18c2.mp3",
+   "voice": "bm_lewis"
+  },
+  "b3395631250ff25e": {
+   "dur": 4.95,
+   "file": "b3395631250ff25e.mp3",
+   "voice": "bm_lewis"
+  },
+  "b35be92bf8f58474": {
+   "dur": 2.07,
+   "file": "b35be92bf8f58474.mp3",
+   "voice": "bm_lewis"
+  },
+  "b361c2954ebca942": {
+   "dur": 1.9,
+   "file": "b361c2954ebca942.mp3",
+   "voice": "bm_lewis"
+  },
+  "b37a12a7923fddf4": {
+   "dur": 1.73,
+   "file": "b37a12a7923fddf4.mp3",
+   "voice": "bm_lewis"
+  },
+  "b42a6b422a93d04c": {
+   "dur": 2.25,
+   "file": "b42a6b422a93d04c.mp3",
+   "voice": "bm_lewis"
+  },
+  "b4776f94c274baf0": {
+   "dur": 4.66,
+   "file": "b4776f94c274baf0.mp3",
+   "voice": "bm_lewis"
+  },
+  "b478f4c0c354fd93": {
+   "dur": 7.56,
+   "file": "b478f4c0c354fd93.mp3",
+   "voice": "bm_lewis"
+  },
+  "b4adc0f5f99f0657": {
+   "dur": 2.02,
+   "file": "b4adc0f5f99f0657.mp3",
+   "voice": "bm_lewis"
+  },
+  "b4f556d2a7c15403": {
+   "dur": 5.09,
+   "file": "b4f556d2a7c15403.mp3",
+   "voice": "bm_lewis"
+  },
+  "b5d16c59ecb8cca9": {
+   "dur": 4.28,
+   "file": "b5d16c59ecb8cca9.mp3",
+   "voice": "bm_lewis"
+  },
+  "b5e34e1af966b0a9": {
+   "dur": 4.23,
+   "file": "b5e34e1af966b0a9.mp3",
+   "voice": "bm_lewis"
+  },
+  "b608cf4b890aafd1": {
+   "dur": 12.29,
+   "file": "b608cf4b890aafd1.mp3",
+   "voice": "bm_lewis"
+  },
+  "b60b2eef50c39d31": {
+   "dur": 5.35,
+   "file": "b60b2eef50c39d31.mp3",
+   "voice": "bm_lewis"
+  },
+  "b615c39a5dd825ac": {
+   "dur": 5.36,
+   "file": "b615c39a5dd825ac.mp3",
+   "voice": "bm_lewis"
+  },
+  "b64226c69846865b": {
+   "dur": 5.02,
+   "file": "b64226c69846865b.mp3",
+   "voice": "bm_lewis"
+  },
+  "b6df9ae58300a00c": {
+   "dur": 6.04,
+   "file": "b6df9ae58300a00c.mp3",
+   "voice": "bm_lewis"
+  },
+  "b7f3676007f058bb": {
+   "dur": 2.06,
+   "file": "b7f3676007f058bb.mp3",
+   "voice": "bm_lewis"
+  },
+  "b839babb8f8ee65d": {
+   "dur": 2.19,
+   "file": "b839babb8f8ee65d.mp3",
+   "voice": "bm_lewis"
+  },
+  "b83dee6a020228e2": {
+   "dur": 2.04,
+   "file": "b83dee6a020228e2.mp3",
+   "voice": "bm_lewis"
+  },
+  "b8718b3e87388821": {
+   "dur": 2.27,
+   "file": "b8718b3e87388821.mp3",
+   "voice": "bm_lewis"
+  },
+  "b8748a078a15ce6e": {
+   "dur": 4.8,
+   "file": "b8748a078a15ce6e.mp3",
+   "voice": "bm_lewis"
+  },
+  "b878bbf927200225": {
+   "dur": 3.79,
+   "file": "b878bbf927200225.mp3",
+   "voice": "bm_lewis"
+  },
+  "b8c4628365a6a1c4": {
+   "dur": 1.92,
+   "file": "b8c4628365a6a1c4.mp3",
+   "voice": "bm_lewis"
+  },
+  "b8c5d26ea6430096": {
+   "dur": 6.92,
+   "file": "b8c5d26ea6430096.mp3",
+   "voice": "bm_lewis"
+  },
+  "b8d864fbc1062feb": {
+   "dur": 4.2,
+   "file": "b8d864fbc1062feb.mp3",
+   "voice": "bm_lewis"
+  },
+  "b8f18db674eaa4ba": {
+   "dur": 1.79,
+   "file": "b8f18db674eaa4ba.mp3",
+   "voice": "bm_lewis"
+  },
+  "b962520b65fb272a": {
+   "dur": 4.75,
+   "file": "b962520b65fb272a.mp3",
+   "voice": "bm_lewis"
+  },
+  "b9898635d4332e49": {
+   "dur": 4.67,
+   "file": "b9898635d4332e49.mp3",
+   "voice": "bm_lewis"
+  },
+  "ba4f7dd5ecd38163": {
+   "dur": 2.11,
+   "file": "ba4f7dd5ecd38163.mp3",
+   "voice": "bm_lewis"
+  },
+  "ba786ddf6db7188b": {
+   "dur": 4.83,
+   "file": "ba786ddf6db7188b.mp3",
+   "voice": "bm_lewis"
+  },
+  "bae43dc2150f1c14": {
+   "dur": 2.17,
+   "file": "bae43dc2150f1c14.mp3",
+   "voice": "bm_lewis"
+  },
+  "bb2a6b4fbadaad1e": {
+   "dur": 6.09,
+   "file": "bb2a6b4fbadaad1e.mp3",
+   "voice": "bm_lewis"
+  },
+  "bbeeef391aa5561b": {
+   "dur": 1.81,
+   "file": "bbeeef391aa5561b.mp3",
+   "voice": "bm_lewis"
+  },
+  "bc37df75a4f94e68": {
+   "dur": 1.62,
+   "file": "bc37df75a4f94e68.mp3",
+   "voice": "bm_lewis"
+  },
+  "bc4451a8d5877e0c": {
+   "dur": 2.23,
+   "file": "bc4451a8d5877e0c.mp3",
+   "voice": "bm_lewis"
+  },
+  "bcd053661bec0265": {
+   "dur": 4.32,
+   "file": "bcd053661bec0265.mp3",
+   "voice": "bm_lewis"
+  },
+  "bcd285b3db0e0af4": {
+   "dur": 1.84,
+   "file": "bcd285b3db0e0af4.mp3",
+   "voice": "bm_lewis"
+  },
+  "bcd5e669c7472890": {
+   "dur": 2.0,
+   "file": "bcd5e669c7472890.mp3",
+   "voice": "bm_lewis"
+  },
+  "bdbd6778a0b07766": {
+   "dur": 2.18,
+   "file": "bdbd6778a0b07766.mp3",
+   "voice": "bm_lewis"
+  },
+  "bdd2a224e703f642": {
+   "dur": 2.23,
+   "file": "bdd2a224e703f642.mp3",
+   "voice": "bm_lewis"
+  },
+  "be10b5a6fb086ae5": {
+   "dur": 2.19,
+   "file": "be10b5a6fb086ae5.mp3",
+   "voice": "bm_lewis"
+  },
+  "be220051df34bf68": {
+   "dur": 0.72,
+   "file": "be220051df34bf68.mp3",
+   "voice": "bm_lewis"
+  },
+  "be23471ba6e1f747": {
+   "dur": 15.78,
+   "file": "be23471ba6e1f747.mp3",
+   "voice": "bm_lewis"
+  },
+  "be619cae9b767e34": {
+   "dur": 4.35,
+   "file": "be619cae9b767e34.mp3",
+   "voice": "bm_lewis"
+  },
+  "beaa2218836b0d65": {
+   "dur": 1.64,
+   "file": "beaa2218836b0d65.mp3",
+   "voice": "bm_lewis"
+  },
+  "bf62eff5ce37a6be": {
+   "dur": 1.7,
+   "file": "bf62eff5ce37a6be.mp3",
+   "voice": "bm_lewis"
+  },
+  "bf8582393c68432a": {
+   "dur": 2.84,
+   "file": "bf8582393c68432a.mp3",
+   "voice": "bm_lewis"
+  },
+  "bf888a233d43f03a": {
+   "dur": 3.59,
+   "file": "bf888a233d43f03a.mp3",
+   "voice": "bm_lewis"
+  },
+  "bf951259fea0e7dc": {
+   "dur": 2.41,
+   "file": "bf951259fea0e7dc.mp3",
+   "voice": "bm_lewis"
+  },
+  "c0c29e197d43f19a": {
+   "dur": 5.1,
+   "file": "c0c29e197d43f19a.mp3",
+   "voice": "bm_lewis"
+  },
+  "c175b7def5bfb7f4": {
+   "dur": 1.74,
+   "file": "c175b7def5bfb7f4.mp3",
+   "voice": "bm_lewis"
+  },
+  "c1e8f7c457afedf5": {
+   "dur": 6.18,
+   "file": "c1e8f7c457afedf5.mp3",
+   "voice": "bm_lewis"
+  },
+  "c29052feed729372": {
+   "dur": 1.9,
+   "file": "c29052feed729372.mp3",
+   "voice": "bm_lewis"
+  },
+  "c2dc53553b350b76": {
+   "dur": 1.73,
+   "file": "c2dc53553b350b76.mp3",
+   "voice": "bm_lewis"
+  },
+  "c39429dd203466ae": {
+   "dur": 2.4,
+   "file": "c39429dd203466ae.mp3",
+   "voice": "bm_lewis"
+  },
+  "c3a5a86ac3339d49": {
+   "dur": 2.96,
+   "file": "c3a5a86ac3339d49.mp3",
+   "voice": "bm_lewis"
+  },
+  "c40cbbf74c4c647f": {
+   "dur": 2.22,
+   "file": "c40cbbf74c4c647f.mp3",
+   "voice": "bm_lewis"
+  },
+  "c46a4aee6aa4c922": {
+   "dur": 4.4,
+   "file": "c46a4aee6aa4c922.mp3",
+   "voice": "bm_lewis"
+  },
+  "c568e25852e31d4c": {
+   "dur": 12.74,
+   "file": "c568e25852e31d4c.mp3",
+   "voice": "bm_lewis"
+  },
+  "c6cc4c8af7df351f": {
+   "dur": 2.55,
+   "file": "c6cc4c8af7df351f.mp3",
+   "voice": "bm_lewis"
+  },
+  "c6d1d5a82e703d01": {
+   "dur": 2.09,
+   "file": "c6d1d5a82e703d01.mp3",
+   "voice": "bm_lewis"
+  },
+  "c6dc07d208ac2651": {
+   "dur": 2.27,
+   "file": "c6dc07d208ac2651.mp3",
+   "voice": "bm_lewis"
+  },
+  "c6e79e3df373f5b9": {
+   "dur": 3.96,
+   "file": "c6e79e3df373f5b9.mp3",
+   "voice": "bm_lewis"
+  },
+  "c739e1001c741367": {
+   "dur": 2.09,
+   "file": "c739e1001c741367.mp3",
+   "voice": "bm_lewis"
+  },
+  "c75095584c9332ec": {
+   "dur": 3.82,
+   "file": "c75095584c9332ec.mp3",
+   "voice": "bm_lewis"
+  },
+  "c767aedce4f0dde1": {
+   "dur": 1.58,
+   "file": "c767aedce4f0dde1.mp3",
+   "voice": "bm_lewis"
+  },
+  "c862d405f88cba54": {
+   "dur": 1.86,
+   "file": "c862d405f88cba54.mp3",
+   "voice": "bm_lewis"
+  },
+  "c8a52b25978ba99f": {
+   "dur": 2.09,
+   "file": "c8a52b25978ba99f.mp3",
+   "voice": "bm_lewis"
+  },
+  "c8b5f08977511b2f": {
+   "dur": 7.63,
+   "file": "c8b5f08977511b2f.mp3",
+   "voice": "bm_lewis"
+  },
+  "c949cf413aced28a": {
+   "dur": 2.52,
+   "file": "c949cf413aced28a.mp3",
+   "voice": "bm_lewis"
+  },
+  "c96ea0ec9857482d": {
+   "dur": 1.87,
+   "file": "c96ea0ec9857482d.mp3",
+   "voice": "bm_lewis"
+  },
+  "c97374cfc14b3320": {
+   "dur": 1.92,
+   "file": "c97374cfc14b3320.mp3",
+   "voice": "bm_lewis"
+  },
+  "c98150b19fc562a0": {
+   "dur": 3.87,
+   "file": "c98150b19fc562a0.mp3",
+   "voice": "bm_lewis"
+  },
+  "c9efc822c637ebd7": {
+   "dur": 4.3,
+   "file": "c9efc822c637ebd7.mp3",
+   "voice": "bm_lewis"
+  },
+  "ca549f258119b4aa": {
+   "dur": 2.0,
+   "file": "ca549f258119b4aa.mp3",
+   "voice": "bm_lewis"
+  },
+  "ca95611cd00c4537": {
+   "dur": 3.55,
+   "file": "ca95611cd00c4537.mp3",
+   "voice": "bm_lewis"
+  },
+  "cabf43848fd24454": {
+   "dur": 7.72,
+   "file": "cabf43848fd24454.mp3",
+   "voice": "bm_lewis"
+  },
+  "cbb1f01bdf4f942b": {
+   "dur": 2.11,
+   "file": "cbb1f01bdf4f942b.mp3",
+   "voice": "bm_lewis"
+  },
+  "cbbb7c669c9c6fac": {
+   "dur": 2.22,
+   "file": "cbbb7c669c9c6fac.mp3",
+   "voice": "bm_lewis"
+  },
+  "ccafd04203912ad2": {
+   "dur": 1.87,
+   "file": "ccafd04203912ad2.mp3",
+   "voice": "bm_lewis"
+  },
+  "cdc8a69a069bc891": {
+   "dur": 4.15,
+   "file": "cdc8a69a069bc891.mp3",
+   "voice": "bm_lewis"
+  },
+  "cdc94e0358058581": {
+   "dur": 1.78,
+   "file": "cdc94e0358058581.mp3",
+   "voice": "bm_lewis"
+  },
+  "ce0768526a95ed6c": {
+   "dur": 5.34,
+   "file": "ce0768526a95ed6c.mp3",
+   "voice": "bm_lewis"
+  },
+  "ce1395c45df788d5": {
+   "dur": 3.22,
+   "file": "ce1395c45df788d5.mp3",
+   "voice": "bm_lewis"
+  },
+  "cede2d012e280fa6": {
+   "dur": 4.8,
+   "file": "cede2d012e280fa6.mp3",
+   "voice": "bm_lewis"
+  },
+  "cf1e33bed0975f40": {
+   "dur": 5.33,
+   "file": "cf1e33bed0975f40.mp3",
+   "voice": "bm_lewis"
+  },
+  "cf20c7a373aa33d6": {
+   "dur": 2.96,
+   "file": "cf20c7a373aa33d6.mp3",
+   "voice": "bm_lewis"
+  },
+  "cfb787900507d1d9": {
+   "dur": 4.13,
+   "file": "cfb787900507d1d9.mp3",
+   "voice": "bm_lewis"
+  },
+  "d0a0c477d97237b9": {
+   "dur": 3.89,
+   "file": "d0a0c477d97237b9.mp3",
+   "voice": "bm_lewis"
+  },
+  "d0e68e30dcdb307d": {
+   "dur": 5.06,
+   "file": "d0e68e30dcdb307d.mp3",
+   "voice": "bm_lewis"
+  },
+  "d12fcae7665b3871": {
+   "dur": 1.77,
+   "file": "d12fcae7665b3871.mp3",
+   "voice": "bm_lewis"
+  },
+  "d13bb3ad3f5dc4a9": {
+   "dur": 7.53,
+   "file": "d13bb3ad3f5dc4a9.mp3",
+   "voice": "bm_lewis"
+  },
+  "d1c3c15516f3550e": {
+   "dur": 2.03,
+   "file": "d1c3c15516f3550e.mp3",
+   "voice": "bm_lewis"
+  },
+  "d1f277ee20e4e207": {
+   "dur": 2.4,
+   "file": "d1f277ee20e4e207.mp3",
+   "voice": "bm_lewis"
+  },
+  "d205da8daa614d99": {
+   "dur": 5.08,
+   "file": "d205da8daa614d99.mp3",
+   "voice": "bm_lewis"
+  },
+  "d24aff18d64c0df8": {
+   "dur": 5.3,
+   "file": "d24aff18d64c0df8.mp3",
+   "voice": "bm_lewis"
+  },
+  "d26c9252da7f7c2b": {
+   "dur": 2.23,
+   "file": "d26c9252da7f7c2b.mp3",
+   "voice": "bm_lewis"
+  },
+  "d28339fda4754102": {
+   "dur": 4.04,
+   "file": "d28339fda4754102.mp3",
+   "voice": "bm_lewis"
+  },
+  "d2cf5f63531ec974": {
+   "dur": 1.61,
+   "file": "d2cf5f63531ec974.mp3",
+   "voice": "bm_lewis"
+  },
+  "d2fbe441fa627c20": {
+   "dur": 1.82,
+   "file": "d2fbe441fa627c20.mp3",
+   "voice": "bm_lewis"
+  },
+  "d40e9b31f3dda1b7": {
+   "dur": 1.92,
+   "file": "d40e9b31f3dda1b7.mp3",
+   "voice": "bm_lewis"
+  },
+  "d4344bc516638010": {
+   "dur": 2.97,
+   "file": "d4344bc516638010.mp3",
+   "voice": "bm_lewis"
+  },
+  "d4ea95edf83522e5": {
+   "dur": 8.16,
+   "file": "d4ea95edf83522e5.mp3",
+   "voice": "bm_lewis"
+  },
+  "d505b7f6c62a6565": {
+   "dur": 4.23,
+   "file": "d505b7f6c62a6565.mp3",
+   "voice": "bm_lewis"
+  },
+  "d5062af8d29e61e4": {
+   "dur": 3.77,
+   "file": "d5062af8d29e61e4.mp3",
+   "voice": "bm_lewis"
+  },
+  "d6302d9897fe359a": {
+   "dur": 1.95,
+   "file": "d6302d9897fe359a.mp3",
+   "voice": "bm_lewis"
+  },
+  "d67ec19392008c49": {
+   "dur": 3.44,
+   "file": "d67ec19392008c49.mp3",
+   "voice": "bm_lewis"
+  },
+  "d69351abd7934e2f": {
+   "dur": 2.29,
+   "file": "d69351abd7934e2f.mp3",
+   "voice": "bm_lewis"
+  },
+  "d6b151f02659db26": {
+   "dur": 1.81,
+   "file": "d6b151f02659db26.mp3",
+   "voice": "bm_lewis"
+  },
+  "d6ca734b8134a5b0": {
+   "dur": 1.86,
+   "file": "d6ca734b8134a5b0.mp3",
+   "voice": "bm_lewis"
+  },
+  "d715ffa6d114941f": {
+   "dur": 4.64,
+   "file": "d715ffa6d114941f.mp3",
+   "voice": "bm_lewis"
+  },
+  "d742b6c61e277347": {
+   "dur": 2.19,
+   "file": "d742b6c61e277347.mp3",
+   "voice": "bm_lewis"
+  },
+  "d7da3f67fc64c347": {
+   "dur": 11.15,
+   "file": "d7da3f67fc64c347.mp3",
+   "voice": "bm_lewis"
+  },
+  "d819c5d9cca14ea4": {
+   "dur": 2.22,
+   "file": "d819c5d9cca14ea4.mp3",
+   "voice": "bm_lewis"
+  },
+  "d8228acfb67aa11d": {
+   "dur": 9.33,
+   "file": "d8228acfb67aa11d.mp3",
+   "voice": "bm_lewis"
+  },
+  "d832f460fd7afdae": {
+   "dur": 1.75,
+   "file": "d832f460fd7afdae.mp3",
+   "voice": "bm_lewis"
+  },
+  "d87d7fb868e729d0": {
+   "dur": 2.14,
+   "file": "d87d7fb868e729d0.mp3",
+   "voice": "bm_lewis"
+  },
+  "d8c6f4772322c5df": {
+   "dur": 2.24,
+   "file": "d8c6f4772322c5df.mp3",
+   "voice": "bm_lewis"
+  },
+  "d8d1be66ee60ffaa": {
+   "dur": 11.05,
+   "file": "d8d1be66ee60ffaa.mp3",
+   "voice": "bm_lewis"
+  },
+  "d9310c8f98439063": {
+   "dur": 1.6,
+   "file": "d9310c8f98439063.mp3",
+   "voice": "bm_lewis"
+  },
+  "d99b10af3df45a23": {
+   "dur": 4.97,
+   "file": "d99b10af3df45a23.mp3",
+   "voice": "bm_lewis"
+  },
+  "d9b92711e1dffee3": {
+   "dur": 3.57,
+   "file": "d9b92711e1dffee3.mp3",
+   "voice": "bm_lewis"
+  },
+  "da81f2bddf553338": {
+   "dur": 18.42,
+   "file": "da81f2bddf553338.mp3",
+   "voice": "bm_lewis"
+  },
+  "daacafc7b1618712": {
+   "dur": 5.86,
+   "file": "daacafc7b1618712.mp3",
+   "voice": "bm_lewis"
+  },
+  "dab09accf698a72b": {
+   "dur": 2.65,
+   "file": "dab09accf698a72b.mp3",
+   "voice": "bm_lewis"
+  },
+  "db450bddc7e483df": {
+   "dur": 7.54,
+   "file": "db450bddc7e483df.mp3",
+   "voice": "bm_lewis"
+  },
+  "db582cbf6d5a272f": {
+   "dur": 3.05,
+   "file": "db582cbf6d5a272f.mp3",
+   "voice": "bm_lewis"
+  },
+  "db8be2e7a252c862": {
+   "dur": 7.67,
+   "file": "db8be2e7a252c862.mp3",
+   "voice": "bm_lewis"
+  },
+  "dbbfba2b31208430": {
+   "dur": 2.79,
+   "file": "dbbfba2b31208430.mp3",
+   "voice": "bm_lewis"
+  },
+  "dbc033c805fe3096": {
+   "dur": 1.56,
+   "file": "dbc033c805fe3096.mp3",
+   "voice": "bm_lewis"
+  },
+  "dbfdca005a97fef4": {
+   "dur": 10.64,
+   "file": "dbfdca005a97fef4.mp3",
+   "voice": "bm_lewis"
+  },
+  "dc85dcf263b38157": {
+   "dur": 4.67,
+   "file": "dc85dcf263b38157.mp3",
+   "voice": "bm_lewis"
+  },
+  "dca4889934db9bf8": {
+   "dur": 4.91,
+   "file": "dca4889934db9bf8.mp3",
+   "voice": "bm_lewis"
+  },
+  "dcd23c5d30462f65": {
+   "dur": 7.7,
+   "file": "dcd23c5d30462f65.mp3",
+   "voice": "bm_lewis"
+  },
+  "dce614cbf05e04fa": {
+   "dur": 3.02,
+   "file": "dce614cbf05e04fa.mp3",
+   "voice": "bm_lewis"
+  },
+  "dd45b3478d28a0dc": {
+   "dur": 4.98,
+   "file": "dd45b3478d28a0dc.mp3",
+   "voice": "bm_lewis"
+  },
+  "de1b64c780269f3b": {
+   "dur": 1.89,
+   "file": "de1b64c780269f3b.mp3",
+   "voice": "bm_lewis"
+  },
+  "de76854acad0efbe": {
+   "dur": 3.86,
+   "file": "de76854acad0efbe.mp3",
+   "voice": "bm_lewis"
+  },
+  "deee2a45975a49c7": {
+   "dur": 2.91,
+   "file": "deee2a45975a49c7.mp3",
+   "voice": "bm_lewis"
+  },
+  "df0f1711c53b8f3e": {
+   "dur": 4.23,
+   "file": "df0f1711c53b8f3e.mp3",
+   "voice": "bm_lewis"
+  },
+  "df2c74201507eacf": {
+   "dur": 1.94,
+   "file": "df2c74201507eacf.mp3",
+   "voice": "bm_lewis"
+  },
+  "df54a4aa2196cf75": {
+   "dur": 2.45,
+   "file": "df54a4aa2196cf75.mp3",
+   "voice": "bm_lewis"
+  },
+  "dfa137dc63f44c01": {
+   "dur": 1.69,
+   "file": "dfa137dc63f44c01.mp3",
+   "voice": "bm_lewis"
+  },
+  "dfeffdd227f0473b": {
+   "dur": 1.81,
+   "file": "dfeffdd227f0473b.mp3",
+   "voice": "bm_lewis"
+  },
+  "e0220cd3e27b6be2": {
+   "dur": 1.89,
+   "file": "e0220cd3e27b6be2.mp3",
+   "voice": "bm_lewis"
+  },
+  "e074ec7caccd4152": {
+   "dur": 3.58,
+   "file": "e074ec7caccd4152.mp3",
+   "voice": "bm_lewis"
+  },
+  "e09670f5a091f667": {
+   "dur": 6.22,
+   "file": "e09670f5a091f667.mp3",
+   "voice": "bm_lewis"
+  },
+  "e180eab03c1b52d3": {
+   "dur": 3.94,
+   "file": "e180eab03c1b52d3.mp3",
+   "voice": "bm_lewis"
+  },
+  "e28866be8f9e0b8e": {
+   "dur": 2.71,
+   "file": "e28866be8f9e0b8e.mp3",
+   "voice": "bm_lewis"
+  },
+  "e2c3df4169ad231e": {
+   "dur": 2.11,
+   "file": "e2c3df4169ad231e.mp3",
+   "voice": "bm_lewis"
+  },
+  "e2c6d8e1b292e463": {
+   "dur": 2.58,
+   "file": "e2c6d8e1b292e463.mp3",
+   "voice": "bm_lewis"
+  },
+  "e310d0700d074653": {
+   "dur": 2.2,
+   "file": "e310d0700d074653.mp3",
+   "voice": "bm_lewis"
+  },
+  "e3850828e8f36d63": {
+   "dur": 2.24,
+   "file": "e3850828e8f36d63.mp3",
+   "voice": "bm_lewis"
+  },
+  "e44b95dcfdff431f": {
+   "dur": 5.07,
+   "file": "e44b95dcfdff431f.mp3",
+   "voice": "bm_lewis"
+  },
+  "e648711770ffbcb1": {
+   "dur": 2.26,
+   "file": "e648711770ffbcb1.mp3",
+   "voice": "bm_lewis"
+  },
+  "e65ae77c0588d1d0": {
+   "dur": 4.59,
+   "file": "e65ae77c0588d1d0.mp3",
+   "voice": "bm_lewis"
+  },
+  "e69b33905bc29f87": {
+   "dur": 2.44,
+   "file": "e69b33905bc29f87.mp3",
+   "voice": "bm_lewis"
+  },
+  "e6d8eb8c5fb1e68c": {
+   "dur": 3.0,
+   "file": "e6d8eb8c5fb1e68c.mp3",
+   "voice": "bm_lewis"
+  },
+  "e6db82e138b8fdc2": {
+   "dur": 4.98,
+   "file": "e6db82e138b8fdc2.mp3",
+   "voice": "bm_lewis"
+  },
+  "e705e40c0b45bbd9": {
+   "dur": 1.6,
+   "file": "e705e40c0b45bbd9.mp3",
+   "voice": "bm_lewis"
+  },
+  "e73a6064870c5b6d": {
+   "dur": 2.0,
+   "file": "e73a6064870c5b6d.mp3",
+   "voice": "bm_lewis"
+  },
+  "e78c36b2946e86bc": {
+   "dur": 20.91,
+   "file": "e78c36b2946e86bc_1.mp3",
+   "parts": [
+    "e78c36b2946e86bc_1.mp3",
+    "e78c36b2946e86bc_2.mp3"
+   ],
+   "voice": "bm_lewis"
+  },
+  "e7958abc59f37f54": {
+   "dur": 5.67,
+   "file": "e7958abc59f37f54.mp3",
+   "voice": "bm_lewis"
+  },
+  "e7ae3e80083edba6": {
+   "dur": 2.41,
+   "file": "e7ae3e80083edba6.mp3",
+   "voice": "bm_lewis"
+  },
+  "e803d8edaf86b979": {
+   "dur": 1.75,
+   "file": "e803d8edaf86b979.mp3",
+   "voice": "bm_lewis"
+  },
+  "e83f45c839471c0b": {
+   "dur": 2.19,
+   "file": "e83f45c839471c0b.mp3",
+   "voice": "bm_lewis"
+  },
+  "e8878ddc56301adf": {
+   "dur": 1.74,
+   "file": "e8878ddc56301adf.mp3",
+   "voice": "bm_lewis"
+  },
+  "e88d735d0f70cc3e": {
+   "dur": 2.6,
+   "file": "e88d735d0f70cc3e.mp3",
+   "voice": "bm_lewis"
+  },
+  "e8d7018b72afa03b": {
+   "dur": 4.2,
+   "file": "e8d7018b72afa03b.mp3",
+   "voice": "bm_lewis"
+  },
+  "e9755b136d23ebe3": {
+   "dur": 3.55,
+   "file": "e9755b136d23ebe3.mp3",
+   "voice": "bm_lewis"
+  },
+  "e9762046e187243e": {
+   "dur": 2.81,
+   "file": "e9762046e187243e.mp3",
+   "voice": "bm_lewis"
+  },
+  "ea104c6fd4fe4c9a": {
+   "dur": 4.83,
+   "file": "ea104c6fd4fe4c9a.mp3",
+   "voice": "bm_lewis"
+  },
+  "ea226f7ba8ef3b58": {
+   "dur": 3.75,
+   "file": "ea226f7ba8ef3b58.mp3",
+   "voice": "bm_lewis"
+  },
+  "ea4ae70be439e717": {
+   "dur": 4.3,
+   "file": "ea4ae70be439e717.mp3",
+   "voice": "bm_lewis"
+  },
+  "ea6b8eab7d4dd4e3": {
+   "dur": 3.27,
+   "file": "ea6b8eab7d4dd4e3.mp3",
+   "voice": "bm_lewis"
+  },
+  "eabeda2e74b10f59": {
+   "dur": 4.0,
+   "file": "eabeda2e74b10f59.mp3",
+   "voice": "bm_lewis"
+  },
+  "eb14afdf68d4eaf7": {
+   "dur": 1.89,
+   "file": "eb14afdf68d4eaf7.mp3",
+   "voice": "bm_lewis"
+  },
+  "eb49d5c9b0aa5c39": {
+   "dur": 2.67,
+   "file": "eb49d5c9b0aa5c39.mp3",
+   "voice": "bm_lewis"
+  },
+  "eb65e48bb0192cb1": {
+   "dur": 2.56,
+   "file": "eb65e48bb0192cb1.mp3",
+   "voice": "bm_lewis"
+  },
+  "eb7146f857e7cd4e": {
+   "dur": 4.51,
+   "file": "eb7146f857e7cd4e.mp3",
+   "voice": "bm_lewis"
+  },
+  "ec62c36bc723a451": {
+   "dur": 3.61,
+   "file": "ec62c36bc723a451.mp3",
+   "voice": "bm_lewis"
+  },
+  "ec8cf69f10bba8af": {
+   "dur": 3.79,
+   "file": "ec8cf69f10bba8af.mp3",
+   "voice": "bm_lewis"
+  },
+  "eca23ed36f8e8532": {
+   "dur": 2.58,
+   "file": "eca23ed36f8e8532.mp3",
+   "voice": "bm_lewis"
+  },
+  "ecfdde523c40cd87": {
+   "dur": 2.71,
+   "file": "ecfdde523c40cd87.mp3",
+   "voice": "bm_lewis"
+  },
+  "ed68a1ce7de02c08": {
+   "dur": 1.73,
+   "file": "ed68a1ce7de02c08.mp3",
+   "voice": "bm_lewis"
+  },
+  "eddcd62560b93b1e": {
+   "dur": 1.16,
+   "file": "eddcd62560b93b1e.mp3",
+   "voice": "bm_lewis"
+  },
+  "ee36dfaf54d78558": {
+   "dur": 3.88,
+   "file": "ee36dfaf54d78558.mp3",
+   "voice": "bm_lewis"
+  },
+  "ee490ea83950128e": {
+   "dur": 1.42,
+   "file": "ee490ea83950128e.mp3",
+   "voice": "bm_lewis"
+  },
+  "ee5fe8d2505a379b": {
+   "dur": 2.63,
+   "file": "ee5fe8d2505a379b.mp3",
+   "voice": "bm_lewis"
+  },
+  "ee999b5a626f5fd7": {
+   "dur": 3.5,
+   "file": "ee999b5a626f5fd7.mp3",
+   "voice": "bm_lewis"
+  },
+  "ee9decd6ac94ba5e": {
+   "dur": 1.92,
+   "file": "ee9decd6ac94ba5e.mp3",
+   "voice": "bm_lewis"
+  },
+  "eed22707fe8fb6c9": {
+   "dur": 2.36,
+   "file": "eed22707fe8fb6c9.mp3",
+   "voice": "bm_lewis"
+  },
+  "ef0dfb154bca2cb9": {
+   "dur": 4.43,
+   "file": "ef0dfb154bca2cb9.mp3",
+   "voice": "bm_lewis"
+  },
+  "ef3509e71c0b3e49": {
+   "dur": 1.9,
+   "file": "ef3509e71c0b3e49.mp3",
+   "voice": "bm_lewis"
+  },
+  "ef52a1831ce27a26": {
+   "dur": 5.74,
+   "file": "ef52a1831ce27a26.mp3",
+   "voice": "bm_lewis"
+  },
+  "ef97becbaa04feae": {
+   "dur": 3.45,
+   "file": "ef97becbaa04feae.mp3",
+   "voice": "bm_lewis"
+  },
+  "efbaaee9baf30268": {
+   "dur": 5.57,
+   "file": "efbaaee9baf30268.mp3",
+   "voice": "bm_lewis"
+  },
+  "f1113a55d1f051e1": {
+   "dur": 3.29,
+   "file": "f1113a55d1f051e1.mp3",
+   "voice": "bm_lewis"
+  },
+  "f1f836fc79d95219": {
+   "dur": 2.14,
+   "file": "f1f836fc79d95219.mp3",
+   "voice": "bm_lewis"
+  },
+  "f2c8caeabe8d728d": {
+   "dur": 4.21,
+   "file": "f2c8caeabe8d728d.mp3",
+   "voice": "bm_lewis"
+  },
+  "f30c1ec7923b225d": {
+   "dur": 6.05,
+   "file": "f30c1ec7923b225d.mp3",
+   "voice": "bm_lewis"
+  },
+  "f325c7ed7c10a837": {
+   "dur": 2.44,
+   "file": "f325c7ed7c10a837.mp3",
+   "voice": "bm_lewis"
+  },
+  "f364454d702fda1a": {
+   "dur": 3.05,
+   "file": "f364454d702fda1a.mp3",
+   "voice": "bm_lewis"
+  },
+  "f48ad2c4320b83f1": {
+   "dur": 10.79,
+   "file": "f48ad2c4320b83f1.mp3",
+   "voice": "bm_lewis"
+  },
+  "f4e4d7d31c79e949": {
+   "dur": 2.12,
+   "file": "f4e4d7d31c79e949.mp3",
+   "voice": "bm_lewis"
+  },
+  "f4eb09bf16ac653b": {
+   "dur": 2.18,
+   "file": "f4eb09bf16ac653b.mp3",
+   "voice": "bm_lewis"
+  },
+  "f5757ed84794a72d": {
+   "dur": 7.06,
+   "file": "f5757ed84794a72d.mp3",
+   "voice": "bm_lewis"
+  },
+  "f615291e262532e8": {
+   "dur": 3.93,
+   "file": "f615291e262532e8.mp3",
+   "voice": "bm_lewis"
+  },
+  "f61ed4022cb4afd0": {
+   "dur": 5.46,
+   "file": "f61ed4022cb4afd0.mp3",
+   "voice": "bm_lewis"
+  },
+  "f62b76089706610f": {
+   "dur": 1.83,
+   "file": "f62b76089706610f.mp3",
+   "voice": "bm_lewis"
+  },
+  "f6c859c017eee0b7": {
+   "dur": 1.81,
+   "file": "f6c859c017eee0b7.mp3",
+   "voice": "bm_lewis"
+  },
+  "f7e6b755fe9f8471": {
+   "dur": 1.87,
+   "file": "f7e6b755fe9f8471.mp3",
+   "voice": "bm_lewis"
+  },
+  "f8327bd75240fc84": {
+   "dur": 2.07,
+   "file": "f8327bd75240fc84.mp3",
+   "voice": "bm_lewis"
+  },
+  "f8e081b7a945e354": {
+   "dur": 1.25,
+   "file": "f8e081b7a945e354.mp3",
+   "voice": "bm_lewis"
+  },
+  "f8eae63ec13ea16f": {
+   "dur": 2.08,
+   "file": "f8eae63ec13ea16f.mp3",
+   "voice": "bm_lewis"
+  },
+  "f9000c1cfcba963a": {
+   "dur": 1.99,
+   "file": "f9000c1cfcba963a.mp3",
+   "voice": "bm_lewis"
+  },
+  "f983311f35e9da84": {
+   "dur": 4.83,
+   "file": "f983311f35e9da84.mp3",
+   "voice": "bm_lewis"
+  },
+  "f991d78fe3dc680b": {
+   "dur": 2.73,
+   "file": "f991d78fe3dc680b.mp3",
+   "voice": "bm_lewis"
+  },
+  "f9ce4682384af367": {
+   "dur": 2.23,
+   "file": "f9ce4682384af367.mp3",
+   "voice": "bm_lewis"
+  },
+  "fa1f3455a798a087": {
+   "dur": 2.03,
+   "file": "fa1f3455a798a087.mp3",
+   "voice": "bm_lewis"
+  },
+  "fa52aa205d69c25a": {
+   "dur": 2.46,
+   "file": "fa52aa205d69c25a.mp3",
+   "voice": "bm_lewis"
+  },
+  "faac440d80562cdb": {
+   "dur": 3.63,
+   "file": "faac440d80562cdb.mp3",
+   "voice": "bm_lewis"
+  },
+  "fab48b83fe0f63e9": {
+   "dur": 4.58,
+   "file": "fab48b83fe0f63e9.mp3",
+   "voice": "bm_lewis"
+  },
+  "fbf064ce660297ce": {
+   "dur": 2.31,
+   "file": "fbf064ce660297ce.mp3",
+   "voice": "bm_lewis"
+  },
+  "fc80a812820eedfc": {
+   "dur": 4.47,
+   "file": "fc80a812820eedfc.mp3",
+   "voice": "bm_lewis"
+  },
+  "fd676fe701341b7a": {
+   "dur": 4.27,
+   "file": "fd676fe701341b7a.mp3",
+   "voice": "bm_lewis"
+  },
+  "fd933ce51da35d73": {
+   "dur": 1.57,
+   "file": "fd933ce51da35d73.mp3",
+   "voice": "bm_lewis"
+  },
+  "fd98bd9ab1fe68ce": {
+   "dur": 1.92,
+   "file": "fd98bd9ab1fe68ce.mp3",
+   "voice": "bm_lewis"
+  },
+  "fedb2410f1b50c6e": {
+   "dur": 2.8,
+   "file": "fedb2410f1b50c6e.mp3",
+   "voice": "bm_lewis"
+  },
+  "ff2d336567b0c697": {
+   "dur": 1.89,
+   "file": "ff2d336567b0c697.mp3",
+   "voice": "bm_lewis"
+  },
+  "ff4e788798ad2275": {
+   "dur": 2.26,
+   "file": "ff4e788798ad2275.mp3",
+   "voice": "bm_lewis"
+  }
+ },
+ "voices": {
+  "ai": "bm_lewis",
+  "narrator": "bm_lewis"
+ }
+}
