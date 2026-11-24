@@ -2,7 +2,7 @@
    Every build has its own cache names (BUILD is a hash of the site's files), so a new build never serves an old
    engine: the browser sees a changed sw.js, installs it, and the page reloads once when it takes over (app.js,
    "controllerchange"). /api/ requests never reach here: litmus-shim.js answers them in the page. */
-var BUILD = 'a292f64133ee';
+var BUILD = '57a08bbcb0f9';
 var CACHE = 'litmus-static-shell-' + BUILD;
 var ENGINE = 'litmus-static-engine-' + BUILD;
 var VOICE = 'litmus-voice-v1';

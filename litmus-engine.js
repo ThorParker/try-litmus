@@ -3,7 +3,7 @@
    Data (one SQLite file) is kept in this browser's IndexedDB, shared by the student and teacher pages.
    Two tabs: every request runs under one Web Lock; a tab first loads any newer save made by another tab. */
 'use strict';
-var BUILD = 'a292f64133ee';
+var BUILD = '57a08bbcb0f9';
 var ENV = {"HOME": "/home/pyodide", "LITMUS_DATA_DIR": "/data", "LITMUS_FORCE_DEMO": "1", "LITMUS_SEED_DEMO": "1", "LITMUS_ENV_FILE": "/app/.no-env-file", "LITMUS_TEACHER_CODE": "teach-2026", "LITMUS_RETENTION_DAYS": "1"};
 var BASE = self.location.href.split('?')[0].replace(/[^/]*$/, '');
 importScripts(BASE + 'pyodide/pyodide.js?v=' + BUILD);

@@ -3,7 +3,7 @@
    untouched. Downloads from /api/ (the CSV export) are handled here too. */
 (function () {
   'use strict';
-  var BUILD = 'a292f64133ee';
+  var BUILD = '57a08bbcb0f9';
   var me = document.currentScript && document.currentScript.src;
   var BASE = me ? me.split('?')[0].replace(/[^/]*$/, '') : new URL('./', location.href).href;
   var realFetch = window.fetch.bind(window);
@@ -147,12 +147,31 @@
     if (state !== 'loading') return;
     var main = document.getElementById('main');
     if (!main || main.querySelector(':scope > :not(noscript)')) return;
-    line = document.createElement('p');
+    // The words, and under them a thin moving bar in the app's own colours, so the wait is seen to be working.
+    // People who ask their device for less motion get a still bar.
+    var css = document.createElement('style');
+    css.textContent =
+      '#litmus-boot{margin:0;padding:32px 16px;text-align:center}' +
+      '#litmus-boot p{margin:0}' +
+      '#litmus-boot .lb-track{width:168px;max-width:60%;height:4px;margin:16px auto 0;border-radius:2px;overflow:hidden;background:var(--line,rgba(127,127,127,.3))}' +
+      '#litmus-boot .lb-bar{width:40%;height:100%;border-radius:2px;background:var(--accent,currentColor);animation:lb-slide 1.3s ease-in-out infinite}' +
+      '@keyframes lb-slide{0%{transform:translateX(-100%)}100%{transform:translateX(250%)}}' +
+      '@media (prefers-reduced-motion: reduce){#litmus-boot .lb-bar{animation:none;width:100%;opacity:.45}}';
+    line = document.createElement('div');
     line.id = 'litmus-boot';
-    line.className = 'muted';
     line.setAttribute('role', 'status');
-    line.style.cssText = 'margin:0;padding:32px 16px;text-align:center';
-    line.textContent = 'Loading Litmus…';
+    var words = document.createElement('p');
+    words.className = 'muted';
+    words.textContent = 'Loading Litmus…';
+    var track = document.createElement('div');
+    track.className = 'lb-track';
+    track.setAttribute('aria-hidden', 'true');
+    var bar = document.createElement('div');
+    bar.className = 'lb-bar';
+    track.appendChild(bar);
+    line.appendChild(css);
+    line.appendChild(words);
+    line.appendChild(track);
     main.appendChild(line);
   }
   function bootDone() {
